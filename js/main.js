@@ -72,7 +72,14 @@ document.addEventListener('DOMContentLoaded', async function() {
     // toggle all
     this.getElementById("showAllCheckbox").checked = false
     this.getElementById("showAllCheckbox").addEventListener("input", function (event) {
-      calendarClass.toggleAllFCalendar(event.target.checked)
+      c = true
+      if (event.target.checked && calendarClass.courses_filtered.length > 50)
+        c = confirm(`Are you sure? This will render ${calendarClass.courses_filtered.length} classes to the calendar - it may take a few minutes.`)
+      
+      if (c)
+        calendarClass.toggleAllFCalendar(event.target.checked)
+      else
+        event.target.checked = !event.target.checked
     })
 
     // populate termSelector and event handler
