@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langara Course Viewer</title>
+
+    <!--Load fullcalendar (uses around 50mb ram)-->
+    <link href='js/fullcalendar/main.min.css' rel='stylesheet' />
+    <script src='js/fullcalendar/main.min.js'></script>
+    <!--Fuse.js because it'll take too long to implement good search-->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js"></script> 
+
+    <!--Load font (montserrat)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--Load stylesheet-->
+    <link href='styles.css' rel='stylesheet'/>
+
+    <!--Load javascript-->
+    <script src='js/Calendar.js'> </script>
+    <script src='js/Course.js'> </script>
+    <script src='js/main.js'> </script>
+</head>
+<body>
+    <div id="outer-container">
+        <div id="sidebar">
+            <div id="sidebarcontainer">
+                <input type="text" id="courseSearchBar" placeholder="Search for course...">
+                <div id="courseOptions">
+                    <p id="searchResults">100 courses shown.</p>
+                    <p id="searchDiagnostics"></p>
+
+                    <input type="checkbox"   id="weekendCheckbox">
+                    <label for="weekendCheckbox">Show weekends.</label>
+                    
+
+                    <br>
+                    <label>Select term: </label> 
+                    <select id="termSelector">
+                    </select>
+                    <!-- hidden until i code them
+                    <br>
+                    <input type="checkbox" id="conflictCheckbox">
+                    <label for="conflictCheckbox">Filter out conflicting courses.</label>
+                    
+                    <br>
+                    <input type="checkbox" id="restrictedCheckbox">
+                    <label for="restrictedCheckbox">Filter out restricted courses.</label>
+                    -->
+
+                    <br>
+                    <input type="checkbox" id="showAllCheckbox">
+                    <label for="showAllCheckbox" id="showAllCheckboxLabel">Show all courses in list.</label>
+                
+                </div>
+            
+
+                <div id="courselist">
+                    <div>
+                        <h3 >Loading Courses...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id='calendar'></div>
+        </div>
+    </div>
+</body>
+</html>
