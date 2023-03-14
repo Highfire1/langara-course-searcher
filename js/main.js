@@ -65,7 +65,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // search bar
     this.getElementById("courseSearchBar").addEventListener("input", function (event) {
-      calendarClass.filterCourses(event.target.value)
+      calendarClass.searchQueryEntered()
+    })
+
+    // conflicting courses
+    this.getElementById("conflictCheckbox").addEventListener("input", function (event) {
       calendarClass.reloadCourseList()
     })
 

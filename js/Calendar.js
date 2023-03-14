@@ -33,7 +33,7 @@ class Calendar {
           courselist.appendChild(c.courseListHTML)
         }
 
-        this.filterCourses(document.getElementById("courseSearchBar").value)
+        this.filterCoursesBySearch(document.getElementById("courseSearchBar").value)
         this.reloadCourseList()
     }
     
@@ -100,7 +100,16 @@ class Calendar {
 
     }
 
-    filterCourses(search) {
+    searchQueryEntered() {
+        let search = document.getElementById("courseSearchBar").value
+        let conflicts = document.getElementById("conflictCheckbox").value
+
+        this.filterCoursesBySearch(search)
+        this.reloadCourseList()
+        
+    }
+
+    filterCoursesBySearch(search) {
         this.courses_hidden = []
         this.courses_filtered = [...this.courses] 
 
