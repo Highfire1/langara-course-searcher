@@ -100,13 +100,12 @@ class Calendar {
 
     }
 
-    searchQueryEntered() {
+    courselistUpdate() {
         let search = document.getElementById("courseSearchBar").value
         let conflicts = document.getElementById("conflictCheckbox").value
 
         this.filterCoursesBySearch(search)
         this.reloadCourseList()
-        
     }
 
     filterCoursesBySearch(search) {
@@ -120,6 +119,11 @@ class Calendar {
         if (search.split(" ") > 2) {
             strictsearch = false
         } 
+
+        let ext = this.dateExtractor(search)
+        search = ext[0]
+        let specified_days = ext.slice(1) // remove first element
+
 
 
         this.courses_hidden = [...this.courses]
@@ -152,14 +156,87 @@ class Calendar {
 
         const fuse = new Fuse(this.courses, options)
         let s = fuse.search(search)
-        //console.log(s)
+        console.log(s)
+
+
 
         for(const c of s) {
+
+            // if user applies specified days, don't show courses on unsearched for days
+            // by god this code is horrible
+            // maybe i should try to use fuse here instead
+            console.log(c.item)
+            if (specified_days.length > 0) {
+                
+                let pass = false
+                out:
+                for (const sch of c.item.schedule) {
+                    for (const day of specified_days) {
+                        if (sch.days[day-1] != "-") {
+                            console.log("AAA", sch.days[day-1], day)
+                            pass = true
+                            break out 
+                        }
+                    }
+                }
+
+                if (!pass) 
+                    continue
+            }
+            // add to filtered list
             this.courses_filtered.push(c.item)
+
+            // remove from hidden list
             let remove = this.courses_hidden.indexOf(c.item)
             this.courses_hidden.splice(remove, 1)
         }
 
+    }
+
+    // extracts dates from a search query (ie given "CPSC Sun Saturday", returns ["CPSC", 6, 7])
+    dateExtractor(string) {
+
+        const lookup = {
+            "mo" : 1,
+            "mon" : 1,
+            "monday" : 1,
+            "tu" : 2,
+            "tue" : 2,
+            "tuesday" : 2,
+            "we" : 3,
+            "wed" : 3,
+            "wednesday" : 3,
+            "th" : 4,
+            "thu" : 4,
+            "thursday" : 4,
+            "fr" : 5,
+            "fri" : 5,
+            "friday" : 5,
+            "sa" : 6,
+            "sat" : 6,
+            "saturday" : 6,
+            "su" : 7,
+            "sun" : 7,
+            "sunday" : 7,
+        }
+
+        const split = string.split(" ")
+
+        let out = ""
+        let days = []
+
+        for (const term of split) {
+            if (term.toLowerCase() in lookup) {
+                if (!days.includes(lookup[term]))
+                    days.push(lookup[term])
+            } else 
+                out += term + " "
+        }
+
+        days.sort()
+
+        console.log([out, ...days])
+        return [out, ...days]
     }
 
     reloadCourseList() {
