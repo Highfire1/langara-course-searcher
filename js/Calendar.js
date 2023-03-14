@@ -112,86 +112,84 @@ class Calendar {
         this.courses_hidden = []
         this.courses_filtered = [...this.courses] 
 
+        search = search.trim()
         if (search == "")
             return
-
-        let strictsearch = true
-        if (search.split(" ") > 2) {
-            strictsearch = false
-        } 
-
-        let ext = this.dateExtractor(search)
-        search = ext[0]
-        let specified_days = ext.slice(1) // remove first element
-
-
 
         this.courses_hidden = [...this.courses]
         this.courses_filtered = []
 
-        const options = {
-            // isCaseSensitive: false,
+        const ext = this.dateExtractor(search)
+        search = ext[0]
+        let specified_days = ext[2]
+
+        // fuzzy search is hard
+        // we'll come back to this
+        let thresh = 0.2  
+        if (search.length >= 9) 
+            thresh = 0.09
+                
+        const fuse_options = {
             includeScore: true,
-            // shouldSort: true,
-            //includeMatches: true,
-            //findAllMatches: false,
-            //minMatchCharLength: 1,
-            // location: 0,
-            threshold: 0.1,
-            distance: 200,
-            useExtendedSearch: strictsearch,
-            //ignoreLocation: true,
-            // ignoreFieldNorm: false,
-            // fieldNormWeight: 1,
+            shouldSort: false,
+            threshold: thresh,
+            //useExtendedSearch: true,
+            ignoreLocation: true,
             keys: [
-                "subjectCourse",
-                "scheduleSearch",
-                "title",
-                "section",
-                "crn", 
-                "notes",
+                "fuzzySearch"
               ]
-              
         }
 
-        const fuse = new Fuse(this.courses, options)
-        let s = fuse.search(search)
-        console.log(s)
+        const fuse = new Fuse(this.courses, fuse_options)
+        let search_results = fuse.search(search)
+        //console.log(search_results)
 
+        // filter courselist with fuzzy search
+        for(const search_result of search_results) {
+            const c = search_result.item
 
-
-        for(const c of s) {
-
-            // if user applies specified days, don't show courses on unsearched for days
-            // by god this code is horrible
-            // maybe i should try to use fuse here instead
-            console.log(c.item)
-            if (specified_days.length > 0) {
-                
-                let pass = false
-                out:
-                for (const sch of c.item.schedule) {
-                    for (const day of specified_days) {
-                        if (sch.days[day-1] != "-") {
-                            console.log("AAA", sch.days[day-1], day)
-                            pass = true
-                            break out 
-                        }
-                    }
-                }
-
-                if (!pass) 
-                    continue
-            }
             // add to filtered list
-            this.courses_filtered.push(c.item)
+            this.courses_filtered.push(c)
 
             // remove from hidden list
-            let remove = this.courses_hidden.indexOf(c.item)
+            let remove = this.courses_hidden.indexOf(c)
             this.courses_hidden.splice(remove, 1)
         }
 
+        // filter courselist with day specification
+        // runs only if day parameter found
+        if (ext[1]) {
+            for (const c of this.courses_filtered) {
+                let day_is_ok = false
+                loop:
+                for (const sch of c.schedule) {
+                    for (const day in specified_days) {
+                        console.log(day, specified_days)
+                        if (sch.days[day-1] != "-" && specified_days[day]) {
+                            day_is_ok = true
+                            break loop
+                        }
+                    }
+                }
+                console.log("OK?", day_is_ok)
+                if (!day_is_ok) {
+                    let remove = this.courses_filtered.indexOf(c)
+                    this.courses_filtered.splice(remove, 1)
+                    this.courses_hidden.push(c)
+                    console.log("HIDE")
+                }
+            }
+
+            console.log(this.courses_filtered)
+        }
     }
+
+    hideCourse(c) {
+        let remove = this.courses_filtered.indexOf(c)
+        this.courses_filtered.splice(remove, 1)
+    }
+
+
 
     // extracts dates from a search query (ie given "CPSC Sun Saturday", returns ["CPSC", 6, 7])
     dateExtractor(string) {
@@ -224,19 +222,32 @@ class Calendar {
 
         let out = ""
         let days = []
+        let days_out = {
+            1 : false,
+            2 : false,
+            3 : false,
+            4 : false,
+            5 : false,
+            6 : false,
+            7 : false,
+        }
+        let day_param_found = false
 
         for (const term of split) {
             if (term.toLowerCase() in lookup) {
-                if (!days.includes(lookup[term]))
-                    days.push(lookup[term])
+                days_out[lookup[term]] = true
+                day_param_found = true
             } else 
                 out += term + " "
         }
 
-        days.sort()
+        if (!day_param_found) {
+            for (const i in days_out) 
+                days_out[i] = true
+        }
 
-        console.log([out, ...days])
-        return [out, ...days]
+        console.log("AAAAAA", [out, days_out])
+        return [out, day_param_found, days_out]
     }
 
     reloadCourseList() {

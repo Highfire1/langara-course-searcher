@@ -22,6 +22,13 @@ class Course {
             this.scheduleSearch.push(sch["room"])
             this.scheduleSearch.push(sch["instructor"])
         }
+        this.scheduleSearch = [...new Set(this.scheduleSearch)] // remove duplicate values i know its not efficient to add then remove duplicates shush
+        this.scheduleSearch = this.scheduleSearch.join(" ")
+        
+        this.fuzzySearch = `${this.subject} ${this.course} ${this.crn} ${this.title} ${this.scheduleSearch}`
+        if (this.notes != null) 
+            this.fuzzySearch += " " + this.notes
+
 
         this.shown = false
         this.ghost = false
@@ -98,7 +105,7 @@ class Course {
             let s_time = times[0].slice(0, 2) + ":" + times[0].slice(2, 4)
             let e_time = times[1].slice(0, 2) + ":" + times[1].slice(2, 4)
             
-            console.log(new Date(sch["start"]), sch["end"])
+            //console.log(new Date(sch["start"]), sch["end"])
             let f = {
                 id: this.crn,
                 title: `${this.subject} ${this.course} ${this.crn}`,
