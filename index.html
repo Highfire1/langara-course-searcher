@@ -31,10 +31,10 @@
             <div id="sidebarcontainer">
                 <input type="text" id="courseSearchBar" placeholder="Search for course...">
                 <div id="courseOptions">
-                    <p id="searchResults">100 courses shown.</p>
+                    <p id="searchResults">Loading courses...</p>
                     <p id="searchDiagnostics"></p>
 
-                    <input type="checkbox"   id="weekendCheckbox">
+                    <input type="checkbox" id="weekendCheckbox">
                     <label for="weekendCheckbox">Show weekends.</label>
                     
 
@@ -45,7 +45,7 @@
                     
                     <br>
                     <input type="checkbox" id="conflictCheckbox">
-                    <label for="conflictCheckbox">Filter out conflicting courses.</label>
+                    <label for="conflictCheckbox">Hide courses that conflict with selected courses.</label>
                     <!-- hidden until i code them
                     <br>
                     <input type="checkbox" id="restrictedCheckbox">
@@ -53,8 +53,9 @@
                     -->
 
                     <br>
-                    <input type="checkbox" id="showAllCheckbox">
-                    <label for="showAllCheckbox" id="showAllCheckboxLabel">Show all courses in list.</label>
+                    <input id="showAllButton" type="button" value="Show all courses in list.">
+                    <br>
+                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">
                 
                 </div>
             

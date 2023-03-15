@@ -5,6 +5,8 @@ class Calendar {
         this.FCalendar = null
         this.ghostCourse = null
         this.courses_filtered = []
+
+        this.courses_oncalendar = []
     }
 
     async fetchData(yearSemester) {
@@ -32,9 +34,6 @@ class Calendar {
         for (const c of this.courses) {
           courselist.appendChild(c.courseListHTML)
         }
-
-        this.filterCoursesBySearch(document.getElementById("courseSearchBar").value)
-        this.reloadCourseList()
     }
     
     
@@ -43,23 +42,39 @@ class Calendar {
 
         for (const c of this.courses) {
             if (c.crn == crn) {
-                c.toggleFShown(this.FCalendar)
+                let status = c.toggleFShown(this.FCalendar)
+                this.ghostCourse = null
+                c.ghost = false
+
+
+
+                if (status) {
+                    this.courses_oncalendar.push(c)
+                } else {
+                    this.courses_oncalendar.splice(this.courses_oncalendar.indexOf(c))
+                    this.setGhostFCalendar(crn)
+                }
                 return
             }
         }
     }
 
-    // Toggles ghost visibility of course in calendar
-    toggleGhostFCalendar(crn) {
+    // Sets the current ghost in FullCalendar
+    setGhostFCalendar(crn) {
+        //console.log(crn, this.ghostCourse, this.ghostCourse === null ? "" : this.ghostCourse.ghost)
+        // if nothing is ghosted don't try to delete previous ghost
         if (this.ghostCourse != null) {
+            // if its the same course do nothing
             if (this.ghostCourse.crn === crn)
                 return
+
+            // if its a different course then we need to delete the current ghost
             if (this.ghostCourse.crn != crn)
                 if (this.ghostCourse.ghost) {
                     this.ghostCourse.hideFCalendar(this.FCalendar)
                     this.ghostCourse.ghost = false
+                    this.ghostCourse = null
                 }
-
         }
 
         if (crn === null) {
@@ -92,70 +107,67 @@ class Calendar {
                 c.hideFCalendar(this.FCalendar)
             }
         }
-
-        if (show)
-            document.getElementById("showAllCheckboxLabel").innerText = "Hide all courses in list."
-        else
-            document.getElementById("showAllCheckboxLabel").innerText = "Show all courses in list."
-
     }
 
+    // called whenever we need to update the courselist
+    // ie new search entered, different option set
     courselistUpdate() {
         let search = document.getElementById("courseSearchBar").value
-        let conflicts = document.getElementById("conflictCheckbox").value
 
         this.filterCoursesBySearch(search)
         this.reloadCourseList()
     }
 
+    // filters courselists internally into courses_hidden and courses_filtered
     filterCoursesBySearch(search) {
         this.courses_hidden = []
         this.courses_filtered = [...this.courses] 
-
-        search = search.trim()
-        if (search == "")
-            return
-
-        this.courses_hidden = [...this.courses]
-        this.courses_filtered = []
 
         const ext = this.dateExtractor(search)
         search = ext[0]
         let specified_days = ext[2]
 
-        // fuzzy search is hard
-        // we'll come back to this
-        let thresh = 0.2  
-        if (search.length >= 9) 
-            thresh = 0.09
-                
-        const fuse_options = {
-            includeScore: true,
-            shouldSort: false,
-            threshold: thresh,
-            //useExtendedSearch: true,
-            ignoreLocation: true,
-            keys: [
-                "fuzzySearch"
-              ]
+        // don't run fuzzy search if there's nothing to search for
+        search = search.trim()
+        if (search != "") {
+            this.courses_hidden = [...this.courses]
+            this.courses_filtered = []
+
+            // fuzzy search is hard
+            // we'll come back to this
+            let thresh = 0.2  
+            if (search.length >= 9) 
+                thresh = 0.09
+                    
+            const fuse_options = {
+                includeScore: true,
+                shouldSort: false,
+                threshold: thresh,
+                //useExtendedSearch: true,
+                ignoreLocation: true,
+                keys: [
+                    "fuzzySearch"
+                ]
+            }
+
+            const fuse = new Fuse(this.courses, fuse_options)
+            let search_results = fuse.search(search)
+            //console.log(search_results)
+
+            // filter courselist with fuzzy search
+            for(const search_result of search_results) {
+                const c = search_result.item
+
+                // add to filtered list
+                this.courses_filtered.push(c)
+
+                // remove from hidden list
+                let remove = this.courses_hidden.indexOf(c)
+                this.courses_hidden.splice(remove, 1)
+            }
         }
 
-        const fuse = new Fuse(this.courses, fuse_options)
-        let search_results = fuse.search(search)
-        //console.log(search_results)
-
-        // filter courselist with fuzzy search
-        for(const search_result of search_results) {
-            const c = search_result.item
-
-            // add to filtered list
-            this.courses_filtered.push(c)
-
-            // remove from hidden list
-            let remove = this.courses_hidden.indexOf(c)
-            this.courses_hidden.splice(remove, 1)
-        }
-
+        // TODO: CHANGE THIS TO A DROP DOWN MENU BECAUSE TEXT DOES NOT WORK FOR THIS
         // filter courselist with day specification
         // runs only if day parameter found
         if (ext[1]) {
@@ -164,29 +176,99 @@ class Calendar {
                 loop:
                 for (const sch of c.schedule) {
                     for (const day in specified_days) {
-                        console.log(day, specified_days)
                         if (sch.days[day-1] != "-" && specified_days[day]) {
                             day_is_ok = true
                             break loop
                         }
                     }
                 }
-                console.log("OK?", day_is_ok)
+
                 if (!day_is_ok) {
                     let remove = this.courses_filtered.indexOf(c)
                     this.courses_filtered.splice(remove, 1)
                     this.courses_hidden.push(c)
-                    console.log("HIDE")
+                }
+            }
+        }
+        
+        // hide courses that conflict by schedule
+        // this approach doesn't support outside events ie gcal but that is too much hassle to setup anyways
+        let conflicts = document.getElementById("conflictCheckbox").checked
+        if (conflicts) {            
+            for (const potential_course of this.courses_filtered) {
+                for (const shown_course of this.courses_oncalendar) {
+                    if (potential_course == shown_course) 
+                        continue
+
+                    let conflict = this.findTimeConflict(potential_course, shown_course)
+                    //console.log(conflict, potential_course, shown_course)
+
+                    if (conflict) {
+                        this.hideCourse(potential_course)
+                    }
                 }
             }
 
-            console.log(this.courses_filtered)
         }
     }
 
+    // takes 2 Course's and determines if they conflict.
+    // returns true if conflict found, false if there is no conflict
+    findTimeConflict(course1, course2) {
+        // divide time into 7 days of 10 minute chunks (7 * (24 * 60)/10 = 1008)
+        // bad long term solution, but it is performant for now
+        // THIS WILL BREAK IF 12 HOUR TIME IS USED
+        let time = new Array(1008)
+        time.fill(false)
+
+        let schedules = course1.schedule.concat(course2.schedule)
+
+        for (const sch of schedules) {
+
+            for (let i=0; i<7;i++) {
+                if (sch.days[i] != '-') {
+
+                    let starthour = +sch.time.slice(0, 2)
+                    let startmin = +sch.time.slice(2, 4)
+                    let endhour = +sch.time.slice(5, 7)
+                    let endmin = +sch.time.slice(7, 10)
+                    let breakout = 0
+
+                    while (starthour != endhour || startmin != ((endmin+10)%60)) {
+                        let offset = 144 * i // 10 minute increment in days
+                        offset += (starthour * 60) / 10
+                        offset += startmin / 10
+
+                        if (time[offset]) {
+                            return true
+                        }
+                        time[offset] = true
+
+                        startmin += 10
+                        if (startmin == 60) {
+                            startmin = 0
+                            starthour += 1
+                        }
+                        breakout += 1
+                        if (breakout > 100) {
+                            alert("BREAKOUT FAILSAFE ACTIVATED. If you are seeing this something went wrong contact Highfire1 with what happened")
+                            console.log(offset, starthour, startmin, endhour, endmin)
+                            break
+                        }
+                    }
+                }
+            }
+
+        }
+
+        return false
+    }
+
+
+
     hideCourse(c) {
-        let remove = this.courses_filtered.indexOf(c)
-        this.courses_filtered.splice(remove, 1)
+        this.courses_hidden.push(c)
+        this.courses_filtered.splice(this.courses_filtered.indexOf(c), 1)
     }
 
 
@@ -246,7 +328,6 @@ class Calendar {
                 days_out[i] = true
         }
 
-        console.log("AAAAAA", [out, days_out])
         return [out, day_param_found, days_out]
     }
 
@@ -258,16 +339,15 @@ class Calendar {
 
         for(const c of this.courses_filtered.reverse()) {
             c.courseListHTML.classList.remove("hidden")
-            doc.removeChild(c.courseListHTML)
-            doc.prepend(c.courseListHTML)
         }
 
+        // keep selected courses on list
+        // might be better to just make a second bar for this
         for(const c of this.courses_hidden) {
-            c.courseListHTML.classList.add("hidden")
+            if (!this.courses_oncalendar.includes(c)) {
+                c.courseListHTML.classList.add("hidden")
+            }
         }
     }
-
-
-
 
 }

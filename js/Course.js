@@ -35,6 +35,16 @@ class Course {
         this.courseListHTML = this.generateCourseListHTML()
     }
 
+    toString() {
+        let out = `${this.RP} ${this.seats} ${this.waitlist} ${this.crn} ${this.subject} ${this.course} ${this.section} ${this.credits} ${this.title} ${this.add_fees}`
+
+        for (const s of this.schedule) {
+            out += "\n" + `\t${s.type} ${s.days} ${s.time} ${s.start} ${s.end} ${s.room} ${s.instructor}`
+        }
+
+        return out
+    }
+
     generateCourseListHTML(){
         let scheduleHTML = ""
 
@@ -63,22 +73,23 @@ class Course {
             this.hideFCalendar(FCalendar)
             this.showFCalendar(FCalendar)
             this.ghost = false
-        } else if (this.shown) 
+            return true
+        } else if (this.shown) {
             this.hideFCalendar(FCalendar)
-        else
+            return false
+        } else {
             this.showFCalendar(FCalendar)
-
+            return true
+        }
 
     }
 
     hideFCalendar(FCalendar) {
-        let rem = FCalendar.getEvents()
+        // getEventById only returns one event at a time
+        // but getEvents doesn't get events that aren't currently shown so it doesn't work
+        while (FCalendar.getEventById(this.crn) != null) 
+            FCalendar.getEventById(this.crn).remove()
         
-        for (const e of rem) {
-            if (e.id == this.crn) {
-                e.remove() 
-            }
-        }
         this.shown = false
         document.getElementById(this.crn).style.backgroundColor = null
     }
@@ -118,9 +129,14 @@ class Course {
                 backgroundColor: color,
                 classNames: ["calendartxt"],
                 overlap: false,
+                extendedProps: {
+                    course : this
+                },
+                source: "json"
               }
             
             FCalendar.addEvent(f)
+
         }
 
         this.shown = true

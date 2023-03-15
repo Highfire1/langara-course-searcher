@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     await calendarClass.fetchData(202320)
 
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
+      timeZone: 'America/Vancouver',
       initialView: 'timeGridWeek',
       slotMinTime:"07:00",
       slotMaxTime:"22:00",
@@ -25,13 +26,14 @@ document.addEventListener('DOMContentLoaded', async function() {
         let p = document.createElement('p')
         p.innerHTML = info.event.extendedProps["description"]
         return { domNodes: [p] }
-      }
+      },
 
     })
 
     FCalendar.render();
 
     calendarClass.FCalendar = FCalendar
+    calendarClass.courselistUpdate()
 
     // event handlers
     this.getElementById("weekendCheckbox").addEventListener("input", function (event) {
@@ -39,6 +41,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         FCalendar.render()
     })
 
+    // show/hide courses on calendar when they are clicked on
     this.getElementById("courselist").addEventListener("click", function (event) {
       target = event.target
       if (target.nodeName != "DIV")
@@ -46,9 +49,11 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       if (target.className == "courselistcourse")
         calendarClass.toggleFCalendar(target.id)
+      
+        calendarClass.courselistUpdate()
     })
 
-    // ghosting fucntionality
+    // ghosting functionality
     this.getElementById("courselist").addEventListener("mouseover", function (event) {
 
       target = event.target
@@ -56,11 +61,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         target = event.target.parentElement
       
       if (target.className == "courselistcourse")
-        calendarClass.toggleGhostFCalendar(target.id)
+      
+      calendarClass.setGhostFCalendar(target.id)
     })
 
     this.getElementById("courselist").addEventListener("mouseleave", function (event) {
-      calendarClass.toggleGhostFCalendar(null)
+      calendarClass.setGhostFCalendar(null)
     })
 
     // search bar
@@ -74,16 +80,21 @@ document.addEventListener('DOMContentLoaded', async function() {
     })
 
     // toggle all
-    this.getElementById("showAllCheckbox").checked = false
-    this.getElementById("showAllCheckbox").addEventListener("input", function (event) {
-      c = true
-      if (event.target.checked && calendarClass.courses_filtered.length > 50)
-        c = confirm(`Are you sure? This will render ${calendarClass.courses_filtered.length} classes to the calendar - it may take a few minutes.`)
-      
-      if (c)
-        calendarClass.toggleAllFCalendar(event.target.checked)
-      else
-        event.target.checked = !event.target.checked
+    this.getElementById("showAllButton").addEventListener("click", function (event) {
+      console.log(event.target.value, event.target.value == "Show all courses in list.")
+
+      if (event.target.value == "Show all courses in list.") {
+
+        if (calendarClass.courses_filtered.length > 50)
+          c = confirm(`Are you sure? This will render ${calendarClass.courses_filtered.length} classes to the calendar - it may take a few minutes.`)
+        
+        calendarClass.toggleAllFCalendar(true)
+        event.target.value = "Hide all courses in list."
+
+      } else {
+        calendarClass.toggleAllFCalendar(false)
+        event.target.value = "Show all courses in list."
+      }
     })
 
     // populate termSelector and event handler
@@ -95,11 +106,39 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
     ts.children[0].remove() // remove 2023 fall as it doesn't exist yet
     
-
     ts.addEventListener("input", async function (event) {
       console.log(event.target.value)
       await calendarClass.fetchData(parseInt(event.target.value))
       calendarClass.FCalendar.gotoDate(new Date(calendarClass.courses_first_day))
+    })
+
+    // copy button
+    let copyButton = this.getElementById("copyButton")
+    copyButton.addEventListener("click", function () {
+      if (calendarClass.courses_oncalendar.length == 0) {
+        alert("Select at least one course first.")
+        return
+      }
+
+      let text = ""
+
+      for (const c of calendarClass.courses_oncalendar) {
+        text += c.crn + "\t"
+      }
+
+      //text += "\n\nRP Seats Avail # on Waitlist Sel CRN Subj Crse Sec Cred Title Add'l Fees RptLimit"
+
+      for (const c of calendarClass.courses_oncalendar) {
+        text += "\n\n" + c.toString()
+      }
+
+
+
+      console.log(text)
+      navigator.clipboard.writeText(text)
+      let s = calendarClass.courses_oncalendar.length == 1 ? "" : "s"
+
+      alert(`Saved ${calendarClass.courses_oncalendar.length} course${s} to clipboard.`)
     })
 
     
