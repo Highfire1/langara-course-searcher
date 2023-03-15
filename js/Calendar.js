@@ -233,11 +233,21 @@ class Calendar {
                     let endhour = +sch.time.slice(5, 7)
                     let endmin = +sch.time.slice(7, 10)
                     let breakout = 0
+                    
+                    // turn :25 -> :20
+                    startmin = Math.round((startmin-1 ) / 10) * 10
+                    
+                    // turn :25 -> :30
+                    endmin = Math.round((endmin+1 ) / 10) * 10
 
-                    while (starthour != endhour || startmin != ((endmin+10)%60)) {
+                    //console.log("SAVING TIMES FOR SCH:", sch)
+                    
+                    while (starthour != endhour || startmin < ((endmin+10)%60)) {
                         let offset = 144 * i // 10 minute increment in days
                         offset += (starthour * 60) / 10
-                        offset += startmin / 10
+                        offset += startmin / 10 
+                        
+                        //console.log(offset, starthour, startmin, endhour, endmin)
 
                         if (time[offset]) {
                             return true
@@ -251,8 +261,8 @@ class Calendar {
                         }
                         breakout += 1
                         if (breakout > 100) {
-                            alert("BREAKOUT FAILSAFE ACTIVATED. If you are seeing this something went wrong contact Highfire1 with what happened")
-                            console.log(offset, starthour, startmin, endhour, endmin)
+                            alert("BREAKOUT FAILSAFE ACTIVATED. If you are seeing this something went wrong contact Highfire1 with what happened\n", offset, starthour, startmin, endhour, endmin)
+                            console.log("BREAKOUT", offset, starthour, startmin, endhour, endmin)
                             break
                         }
                     }
