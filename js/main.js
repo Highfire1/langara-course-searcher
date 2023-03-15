@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     })
 
-    // populate termSelector and event handler
+    // populate termSelector and event handler for changing terms
     let ts = this.getElementById("termSelector")
     for (let i=2023; i >= 2000; i--) {
       ts.innerHTML += `<option value="${i}30">${i} Fall</option>`
@@ -110,9 +110,10 @@ document.addEventListener('DOMContentLoaded', async function() {
       console.log(event.target.value)
       await calendarClass.fetchData(parseInt(event.target.value))
       calendarClass.FCalendar.gotoDate(new Date(calendarClass.courses_first_day))
+      calendarClass.courselistUpdate()
     })
 
-    // copy button
+    // copy courses to clipboard button
     let copyButton = this.getElementById("copyButton")
     copyButton.addEventListener("click", function () {
       if (calendarClass.courses_oncalendar.length == 0) {
@@ -149,4 +150,4 @@ document.addEventListener('DOMContentLoaded', async function() {
     //this.getElementById("termSelector").addEventListener('change', function() {generateCourseList()})  
 
     //toggleDescriptionCheckbox()
-  });
+});
