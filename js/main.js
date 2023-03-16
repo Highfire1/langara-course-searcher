@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     await calendarClass.fetchData(202320)
 
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
+      rerenderDelay: 10,
       timeZone: 'America/Vancouver',
       initialView: 'timeGridWeek',
       slotMinTime:"07:00",
@@ -84,11 +85,11 @@ document.addEventListener('DOMContentLoaded', async function() {
       console.log(event.target.value, event.target.value == "Show all courses in list.")
 
       if (event.target.value == "Show all courses in list.") {
-
-        if (calendarClass.courses_filtered.length > 50)
-          c = confirm(`Are you sure? This will render ${calendarClass.courses_filtered.length} classes to the calendar - it may take a few minutes.`)
+        let state = FCalendar.getOption('weekends')
         
+        FCalendar.setOption('weekends', true) // must toggle weekends for them to render properly idk why
         calendarClass.toggleAllFCalendar(true)
+        FCalendar.setOption('weekends', state)
         event.target.value = "Hide all courses in list."
 
       } else {
@@ -142,7 +143,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       alert(`Saved ${calendarClass.courses_oncalendar.length} course${s} to clipboard.`)
     })
 
-    
+
 
     
     //calendar.render();
