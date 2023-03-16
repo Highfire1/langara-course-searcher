@@ -39,7 +39,7 @@ body {
 
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 1fr 1fr 100fr;
+    grid-template-rows: auto auto 9fr 0;
     row-gap: 15px;
 }
 
@@ -48,6 +48,11 @@ body {
     overflow:scroll;
     overflow-y:scroll;
     background-color: lightblue;
+    border-radius: 5px;
+
+    border:1px solid black;
+    border-color: black;
+
 }
 
 #courseSearchBar {
@@ -59,8 +64,8 @@ body {
 #courseOptions {
     resize: vertical;
     min-height: 17px;
-    max-height: 150px;
-    border-radius: 5px;
+    max-height: calc(6em + 21px + 8vh); /* TODO: do this properly */
+    height: fit-content;
     padding: 10px
 }
 
@@ -70,15 +75,15 @@ body {
 
 
 #courselist {
-    border:0px solid black;
-    border-color: black;
     overflow-y:scroll;
     height: 100%;
     min-height: 100%;
 
-    border-radius: 5px;
-
     position: inherit;
+}
+
+#selectedcourselist {
+
 }
 
 

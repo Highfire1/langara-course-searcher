@@ -167,6 +167,12 @@ class Calendar {
             }
         }
 
+        // overrides 
+        // ie online -> show online only courses only
+        // R -> restricted courses
+        // lab -> courses with lab
+        // TODO: implement this (possibly make this a seperate menu??)
+
         // TODO: CHANGE THIS TO A DROP DOWN MENU BECAUSE TEXT DOES NOT WORK FOR THIS
         // filter courselist with day specification
         // runs only if day parameter found
@@ -195,11 +201,12 @@ class Calendar {
         // this approach doesn't support outside events ie gcal but that is too much hassle to setup anyways
         let conflicts = document.getElementById("conflictCheckbox").checked
         if (conflicts) {            
-            for (const potential_course of this.courses_filtered) {
+            // this horrible reversing is because when we remove elements the list decrements by one causing us to miss some courses
+            for (const potential_course of [...this.courses_filtered].reverse()) {
                 for (const shown_course of this.courses_oncalendar) {
-                    if (potential_course == shown_course) 
+                    if (potential_course == shown_course) {
                         continue
-
+                    }
                     let conflict = this.findTimeConflict(potential_course, shown_course)
                     //console.log(conflict, potential_course, shown_course)
 
@@ -342,9 +349,12 @@ class Calendar {
     }
 
     reloadCourseList() {
-        let doc = document.getElementById("courselist")
+        const count = this.courses_filtered.length
+        if (count == 0) 
+            document.getElementById("searchResults").innerText = "No courses found. Try a different search query!"
+        else 
+            document.getElementById("searchResults").innerText = `${count} courses shown.`
 
-        document.getElementById("searchResults").innerText = `${this.courses_filtered.length} courses shown.`
         
 
         for(const c of this.courses_filtered.reverse()) {

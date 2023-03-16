@@ -143,6 +143,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     })
 
     
+
+    
     //calendar.render();
     //calendarClass.generateCourseList()
 

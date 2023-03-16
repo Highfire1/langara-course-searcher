@@ -29,10 +29,9 @@
     <div id="outer-container">
         <div id="sidebar">
             <div id="sidebarcontainer">
-                <input type="text" id="courseSearchBar" placeholder="Search for course...">
+                    <input type="text" id="courseSearchBar" placeholder="Search for course...">
                 <div id="courseOptions">
                     <p id="searchResults">Loading courses...</p>
-                    <p id="searchDiagnostics"></p>
 
                     <input type="checkbox" id="weekendCheckbox">
                     <label for="weekendCheckbox">Show weekends.</label>
@@ -55,14 +54,19 @@
                     <br>
                     <input id="showAllButton" type="button" value="Show all courses in list.">
                     <br>
-                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">
-                
+                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">                
                 </div>
             
 
                 <div id="courselist">
                     <div>
                         <h3 >Loading Courses...</h3>
+                    </div>
+                </div>
+
+                <div id="selectedcourselist" class="hidden">
+                    <div>
+                        <h3 >No courses selected</h3>
                     </div>
                 </div>
             </div>
