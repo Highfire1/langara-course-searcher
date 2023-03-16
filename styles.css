@@ -11,7 +11,11 @@ body {
 
 
 #outer-container {
-	display: table;
+	display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1;
+
+
 	width: 100%;
 	height: 100%;
     background-color: aquamarine;
@@ -20,41 +24,48 @@ body {
 /** SIDEBAR **/
 
 #sidebar {
-	display: table-cell;
-	width: 20%;
     height: 100vh;
-	vertical-align: top;
     background-color: rgb(108, 187, 108);
+    
 }
 
-#sidebarcontainer{
+#sidebarcontainer {
     width: 90%;
-    height: 100%;
+    height: 95%;
+    margin-top: 5%;
     margin-left: 5%;
-    margin-top: 25px;
+    
     font-size: 14px; 
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 100fr;
+    row-gap: 15px;
 }
 
 
 #sidebarcontainer > div {
-    margin-bottom: 10px;
     overflow:scroll;
     overflow-y:scroll;
-    align-items: stretch
+    background-color: lightblue;
 }
 
 #courseSearchBar {
     font-size: 20pt;
-    width: 95%;
+    width: 98%; /* This doesn't line up with the rest of the sidebar divs idk why*/
     border-radius: 10px;
 }
 
+#courseOptions {
+    resize: vertical;
+    min-height: 17px;
+    max-height: 150px;
+    border-radius: 5px;
+    padding: 10px
+}
+
 #courseOptions * {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 3px;
 }
 
 
@@ -62,11 +73,12 @@ body {
     border:0px solid black;
     border-color: black;
     overflow-y:scroll;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 10px;
+    height: 100%;
+    min-height: 100%;
+
     border-radius: 5px;
-    height: 60vh;
+
+    position: inherit;
 }
 
 
@@ -89,7 +101,6 @@ body {
 /** CONTENT (calendar part of page) **/
 #content {
 	display: table-cell;
-	width: 80%;
 	vertical-align: top;
     background-color: rgb(216, 130, 145);
 }
