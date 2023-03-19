@@ -45,13 +45,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     // show/hide courses on calendar when they are clicked on
     this.getElementById("courselist").addEventListener("click", function (event) {
       target = event.target
-      if (target.nodeName != "DIV")
+
+      // open info about course if title is clicked
+      if (target.nodeName == "H3") {
+        calendarClass.showCourseInfo(event.target.parentElement.id)
+      
+      // else put it on the calendar
+      } else if (target.nodeName != "DIV") {
         target = event.target.parentElement
       
-      if (target.className == "courselistcourse")
+      } if (target.className == "courselistcourse") {
         calendarClass.toggleFCalendar(target.id)
-      
         calendarClass.courselistUpdate()
+      }
     })
 
     // ghosting functionality

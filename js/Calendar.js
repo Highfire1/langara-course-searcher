@@ -96,12 +96,22 @@ class Calendar {
         }
     }
 
+    showCourseInfo(crn) {
+        let c = null
+        for (const course of this.courses) {
+            if (course.crn == crn) {
+                c = course
+                break
+            }
+        }
+        let new_window = window.open("", "_blank", "toolbar=no,width=800,height=700")
+        new_window.document.body.innerHTML = c.generateCourseInfoHTML()
+    }
+
     // Toggles all courses
     toggleAllFCalendar(show) {
-        let i = 0
         for (const c of this.courses_filtered) {
             if (show)  {
-                console.log(`${++i}/${this.courses_filtered.length} courses rendered.`)
                 c.showFCalendar(this.FCalendar)
             } else {
                 c.hideFCalendar(this.FCalendar)

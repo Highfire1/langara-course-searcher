@@ -13,7 +13,7 @@ body {
 #outer-container {
 	display: grid;
     grid-template-columns: 30% 1fr;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
 
 
 	width: 100%;
@@ -38,7 +38,7 @@ body {
     font-size: 14px; 
 
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto 9fr 0;
     row-gap: 15px;
 }
@@ -80,6 +80,14 @@ body {
     min-height: 100%;
 
     position: inherit;
+}
+
+.courselisttitle {
+    width:fit-content
+}
+
+.courselisttitle:hover {
+    text-decoration: underline;
 }
 
 #selectedcourselist {

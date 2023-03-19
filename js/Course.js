@@ -45,6 +45,7 @@ class Course {
         return out
     }
 
+    // html in the courselist on the sidebar
     generateCourseListHTML(){
         let scheduleHTML = ""
 
@@ -57,7 +58,7 @@ class Course {
         }
         
         let html = `
-            <h3>${this.subject} ${this.course} ${this.section} : ${this.title} </h3>
+            <h3 class="courselisttitle">${this.subject} ${this.course} ${this.section} : ${this.title} </h3>
             ${scheduleHTML}
         `
         let temp = document.createElement('div');
@@ -66,6 +67,56 @@ class Course {
         temp.className = "courselistcourse"
 
         return temp
+    }
+
+    // html for the course info that opens in a new window
+    generateCourseInfoHTML(){
+        let html = "<!DOCTYPE html>"
+        html += `<style>
+        h2 {margin-bottom: 2px;}
+        .grid {max-width:90vw; display: grid; grid: auto auto/ fit-content(100%) fit-content(100%);}
+        .sched {max-width:90vw; display: grid; grid: auto / repeat(7, fit-content(100%));}
+        div > * {border: 1px solid #000; padding-right: 5px; padding-left: 5px; padding-top:2px; padding-bottom:2px; margin: 0;}
+        iframe {width:90vw; height: 300px; padding: 10px;} 
+        </style>`
+
+        html += `<h2>${this.subject} ${this.course} ${this.section} ${this.crn}: ${this.title} </h2>`
+
+        
+        html += `<div class="sched">`
+        html += `<p>Type</p><p>Day(s)</p><p>Time</p><p>Non Standard Start</p><p>Non Standard End</p><p>Room</p><p>Instructor(s)</p>`
+        for (const sch of this.schedule) {
+            html += `<p>${sch.type}</p><p>${sch.days}</p><p>${sch.time}</p><p>${sch.start}</p><p>${sch.end}</p><p>${sch.room}</p><p>${sch.instructor}</p>`
+        }
+        html += "</div>"
+
+        html += "<h2>Section Information</h2>"
+        html += `<div class="grid">`
+        html += `<p>RP</p><p>${this.RP}</p>`
+        html += `<p>Seats Available</p><p>${this.seats}</p>`
+        html += `<p># On Waitlist</p><p>${this.waitlist}</p>`
+        html += `<p>CRN</p><p>${this.crn}</p>`
+        html += `<p>Subject</p><p>${this.subject}</p>`
+        html += `<p>Course</p><p>${this.course}</p>`
+        html += `<p>Section</p><p>${this.section}</p>`
+        html += `<p>Credits</p><p>${this.credits}</p>`
+        html += `<p>Title</p><p>${this.title}</p>`
+        html += `<p>Additional Fees</p><p>${this.add_fees}</p>`
+        html += `<p>Repeat Limit</p><p>${this.rpt_limit}</p>`
+        html += `<p>Notes</p><p>${this.notes}</p>`
+        html += "</div><br>"
+
+        html += "<h2>Course Information</h2>"
+        html += `<iframe src="https://swing.langara.bc.ca/prod/hzgkcald.P_DisplayCatalog?term_in=202320&subj=${this.subject}&crse=${this.course}"></iframe>`
+
+        html += "<h2>Transferability</h2>"
+        html += `
+        <div class="sched">
+            <p>Not yet implemented</p>
+        </div>`
+        
+
+        return html
     }
 
     toggleFShown(FCalendar) {
