@@ -1,5 +1,5 @@
 {
-    "datetime_retrieved": "2023-02-20",
+    "datetime_retrieved": "2023-03-22",
     "year": 2007,
     "semester": 20,
     "courses_first_day": "2007-05-8",
@@ -23,8 +23,8 @@
                     "type": "Lecture",
                     "days": "M-W-F--",
                     "time": "0930-1625",
-                    "start": "2007-4-01",
-                    "end": "2007-6-30",
+                    "start": "2007-5-01",
+                    "end": "2007-7-30",
                     "room": "A314",
                     "instructor": "Kory Wilson"
                 }
@@ -48,8 +48,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Kory Wilson"
                 }
@@ -73,8 +73,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Kory Wilson"
                 }
@@ -98,8 +98,8 @@
                     "type": "Lecture",
                     "days": "M-W-F--",
                     "time": "0930-1625",
-                    "start": "2007-4-01",
-                    "end": "2007-6-30",
+                    "start": "2007-5-01",
+                    "end": "2007-7-30",
                     "room": "A314",
                     "instructor": "Kory Wilson"
                 }
@@ -123,8 +123,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Evelyn Nodwell"
                 }
@@ -148,8 +148,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Sharon Tokar"
                 }
@@ -173,8 +173,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "0830-1655",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A235",
                     "instructor": "Stanley Copp"
                 }
@@ -198,8 +198,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "0830-1655",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A235",
                     "instructor": "Tanja Hoffmann"
                 }
@@ -223,8 +223,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "0830-1655",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A235",
                     "instructor": "Stanley Copp"
                 }
@@ -248,8 +248,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "0830-1655",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A235",
                     "instructor": "Tanja Hoffmann"
                 }
@@ -273,8 +273,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": "Bruce Hanbury, Anne Kristiansen"
                 }
@@ -298,8 +298,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1430-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Denise Panchysyn"
                 }
@@ -323,8 +323,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Denise Panchysyn"
                 }
@@ -348,8 +348,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Denise Panchysyn"
                 }
@@ -373,8 +373,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Denise Panchysyn"
                 }
@@ -398,8 +398,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Catherine Glass"
                 },
@@ -407,8 +407,8 @@
                     "type": "Lecture",
                     "days": "MT-----",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B248",
                     "instructor": "Catherine Glass"
                 },
@@ -416,8 +416,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A365",
                     "instructor": "Catherine Glass"
                 }
@@ -441,8 +441,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B252",
                     "instructor": "Donald MacDonald"
                 },
@@ -450,8 +450,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A365",
                     "instructor": "Donald MacDonald"
                 }
@@ -475,8 +475,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "0830-0925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Donald MacDonald"
                 },
@@ -484,8 +484,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Donald MacDonald"
                 },
@@ -493,8 +493,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A365",
                     "instructor": "Donald MacDonald"
                 }
@@ -518,8 +518,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -527,8 +527,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -552,8 +552,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Catherine Glass"
                 },
@@ -561,8 +561,8 @@
                     "type": "Lecture",
                     "days": "--WR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Catherine Glass"
                 },
@@ -570,8 +570,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A363",
                     "instructor": "Catherine Glass"
                 }
@@ -595,8 +595,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B248",
                     "instructor": "Catherine Glass"
                 },
@@ -604,8 +604,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B248",
                     "instructor": "Catherine Glass"
                 },
@@ -613,8 +613,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A363",
                     "instructor": "Catherine Glass"
                 }
@@ -638,8 +638,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1625",
-                    "start": "2007-4-01",
-                    "end": "2007-6-30",
+                    "start": "2007-5-01",
+                    "end": "2007-7-30",
                     "room": "A314",
                     "instructor": "Kenneth Naumann"
                 }
@@ -663,8 +663,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Donald MacDonald"
                 },
@@ -672,8 +672,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Donald MacDonald"
                 },
@@ -681,8 +681,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A362",
                     "instructor": "Donald MacDonald"
                 }
@@ -706,8 +706,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Nadine Beaulieu"
                 },
@@ -715,8 +715,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A362",
                     "instructor": "Nadine Beaulieu"
                 }
@@ -740,8 +740,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B252",
                     "instructor": "Nadine Beaulieu"
                 },
@@ -749,8 +749,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A362",
                     "instructor": "Nadine Beaulieu"
                 }
@@ -774,8 +774,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B252",
                     "instructor": "Jessica Kalra"
                 },
@@ -783,8 +783,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A362",
                     "instructor": "Jessica Kalra"
                 }
@@ -808,8 +808,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Jessica Kalra"
                 },
@@ -817,8 +817,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A362",
                     "instructor": "Jessica Kalra"
                 }
@@ -842,8 +842,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Cam MacDonald"
                 },
@@ -851,8 +851,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Cam MacDonald"
                 },
@@ -860,8 +860,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A365",
                     "instructor": "Cam MacDonald"
                 }
@@ -885,8 +885,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Cam MacDonald"
                 },
@@ -894,8 +894,8 @@
                     "type": "Lecture",
                     "days": "MT-----",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Cam MacDonald"
                 },
@@ -903,8 +903,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A365",
                     "instructor": "Cam MacDonald"
                 }
@@ -928,8 +928,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0830-0925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -937,8 +937,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -962,8 +962,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A320",
                     "instructor": "Stephen Connor"
                 },
@@ -971,8 +971,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Stephen Connor"
                 }
@@ -996,8 +996,8 @@
                     "type": "Lecture",
                     "days": "M---F--",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A320",
                     "instructor": "Stephen Connor"
                 }
@@ -1021,8 +1021,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A320",
                     "instructor": "Stephen Connor"
                 }
@@ -1046,8 +1046,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Cam MacDonald"
                 },
@@ -1055,8 +1055,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "0930-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A366",
                     "instructor": "Cam MacDonald"
                 }
@@ -1080,8 +1080,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A219",
                     "instructor": "Jennifer Reid"
                 }
@@ -1105,8 +1105,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A219",
                     "instructor": "Jennifer Reid"
                 }
@@ -1130,8 +1130,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Spencer Dane"
                 }
@@ -1155,8 +1155,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Jim Tehranian"
                 }
@@ -1180,8 +1180,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Jim Tehranian"
                 }
@@ -1205,8 +1205,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B252",
                     "instructor": "Barbara Cox"
                 }
@@ -1230,8 +1230,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A322",
                     "instructor": "Heather Workman"
                 },
@@ -1239,8 +1239,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "WWW",
                     "instructor": "Heather Workman"
                 }
@@ -1264,8 +1264,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Ronald Shay"
                 }
@@ -1289,8 +1289,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Gordon McFarlane, Alex Muselius"
                 }
@@ -1314,8 +1314,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1730-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Ronald Shay"
                 }
@@ -1339,8 +1339,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Jim Tehranian"
                 }
@@ -1364,8 +1364,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Jim Tehranian"
                 }
@@ -1389,8 +1389,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B246",
                     "instructor": "Alex Muselius, Jim Tehranian"
                 }
@@ -1414,8 +1414,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Danielle Rockel"
                 }
@@ -1439,8 +1439,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Kevin Rolston"
                 }
@@ -1464,8 +1464,8 @@
                     "type": "Flexible Assessment",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": "Kevin Rolston"
                 }
@@ -1489,8 +1489,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Spencer Dane"
                 }
@@ -1514,8 +1514,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Spencer Dane"
                 }
@@ -1539,8 +1539,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 },
@@ -1548,8 +1548,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 },
@@ -1557,8 +1557,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 }
@@ -1582,8 +1582,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 },
@@ -1591,8 +1591,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 },
@@ -1600,8 +1600,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A268",
                     "instructor": "Timothy Higgs"
                 }
@@ -1625,8 +1625,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -1634,8 +1634,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -1643,8 +1643,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -1668,8 +1668,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "James Rolke"
                 },
@@ -1677,8 +1677,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "James Rolke"
                 },
@@ -1686,8 +1686,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "0930-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A271",
                     "instructor": "James Rolke"
                 }
@@ -1711,8 +1711,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -1720,8 +1720,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -1729,8 +1729,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -1754,8 +1754,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "Cari Shorrock"
                 },
@@ -1763,8 +1763,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "Cari Shorrock"
                 },
@@ -1772,8 +1772,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "0930-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A271",
                     "instructor": "Cari Shorrock"
                 }
@@ -1797,8 +1797,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "Cari Shorrock"
                 },
@@ -1806,8 +1806,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "Cari Shorrock"
                 },
@@ -1815,8 +1815,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A271",
                     "instructor": "Cari Shorrock"
                 }
@@ -1840,8 +1840,8 @@
                     "type": "Lecture",
                     "days": "MT-----",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "James Rolke"
                 },
@@ -1849,8 +1849,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "James Rolke"
                 },
@@ -1858,8 +1858,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A271",
                     "instructor": "James Rolke"
                 }
@@ -1883,8 +1883,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1730-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "James Rolke"
                 },
@@ -1892,8 +1892,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1730-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A266",
                     "instructor": "James Rolke"
                 },
@@ -1901,8 +1901,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A271",
                     "instructor": "James Rolke"
                 }
@@ -1926,8 +1926,8 @@
                     "type": "Lecture",
                     "days": "--WR---",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A267",
                     "instructor": "Paulo Sgarbi"
                 },
@@ -1935,8 +1935,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1730-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A269",
                     "instructor": "Paulo Sgarbi"
                 }
@@ -1960,8 +1960,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A320",
                     "instructor": "Huimin Lin"
                 }
@@ -1985,8 +1985,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A320",
                     "instructor": "Huimin Lin"
                 }
@@ -2010,8 +2010,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Gayleen Wren, Heather Workman, Karyn Hall, Kevin Rolston"
                 }
@@ -2035,8 +2035,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Gayleen Wren, Heather Workman, Karyn Hall, Kevin Rolston"
                 }
@@ -2060,8 +2060,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Gayleen Wren, Heather Workman, Karyn Hall, Kevin Rolston"
                 }
@@ -2085,8 +2085,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Gayleen Wren, Heather Workman, Karyn Hall, Kevin Rolston"
                 }
@@ -2110,8 +2110,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2135,8 +2135,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2160,8 +2160,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2185,8 +2185,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2210,8 +2210,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2235,8 +2235,8 @@
                     "type": "On Site Work",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Heather Workman, Gayleen Wren, Karyn Hall, Kevin Rolston"
                 }
@@ -2260,8 +2260,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Gordon Pybus"
                 }
@@ -2285,8 +2285,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A307",
                     "instructor": "Simon Casey"
                 }
@@ -2310,8 +2310,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "Cheryl Nobles"
                 },
@@ -2319,8 +2319,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Cheryl Nobles"
                 }
@@ -2344,8 +2344,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "Trevor Newland"
                 },
@@ -2353,8 +2353,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Trevor Newland"
                 }
@@ -2378,8 +2378,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Cheryl Nobles"
                 }
@@ -2403,8 +2403,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Cheryl Nobles"
                 }
@@ -2428,8 +2428,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Cheryl Nobles"
                 }
@@ -2453,8 +2453,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Brian Koehler"
                 },
@@ -2462,8 +2462,8 @@
                     "type": "Lab",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Brian Koehler"
                 }
@@ -2487,8 +2487,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Hossein Darbandi"
                 },
@@ -2496,8 +2496,8 @@
                     "type": "Lab",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Hossein Darbandi"
                 }
@@ -2521,8 +2521,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 },
@@ -2530,8 +2530,8 @@
                     "type": "Lab",
                     "days": "-T-R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 }
@@ -2555,8 +2555,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 },
@@ -2564,8 +2564,8 @@
                     "type": "Lab",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 }
@@ -2589,8 +2589,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 },
@@ -2598,8 +2598,8 @@
                     "type": "Lab",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Eric Holmes"
                 }
@@ -2623,8 +2623,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -2632,8 +2632,8 @@
                     "type": "Lab",
                     "days": "-T-R---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -2657,8 +2657,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -2666,8 +2666,8 @@
                     "type": "Lab",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -2691,8 +2691,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A351",
                     "instructor": "Brian Koehler"
                 },
@@ -2700,8 +2700,8 @@
                     "type": "Lab",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A217",
                     "instructor": "Brian Koehler"
                 }
@@ -2725,8 +2725,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B022",
                     "instructor": "Hengameh Hamavand"
                 },
@@ -2734,8 +2734,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B015",
                     "instructor": "Hengameh Hamavand"
                 },
@@ -2743,8 +2743,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Hengameh Hamavand"
                 }
@@ -2768,8 +2768,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A351",
                     "instructor": "Hossein Darbandi"
                 }
@@ -2793,8 +2793,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Mingwu Chen"
                 },
@@ -2802,8 +2802,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Mingwu Chen"
                 }
@@ -2827,8 +2827,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A351",
                     "instructor": "Mingwu Chen"
                 },
@@ -2836,8 +2836,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A215",
                     "instructor": "Mingwu Chen"
                 }
@@ -2861,8 +2861,8 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A351",
                     "instructor": "Bijan Farrahi"
                 },
@@ -2870,8 +2870,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A217",
                     "instructor": "Bijan Farrahi"
                 }
@@ -2895,8 +2895,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B016",
                     "instructor": "Fred Parvaz"
                 },
@@ -2904,8 +2904,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A216",
                     "instructor": "Fred Parvaz"
                 }
@@ -2929,8 +2929,8 @@
                     "type": "Lecture",
                     "days": "MT-----",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Hengameh Hamavand"
                 },
@@ -2938,8 +2938,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A217",
                     "instructor": "Hengameh Hamavand"
                 }
@@ -2963,8 +2963,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A217",
                     "instructor": "Brian Koehler"
                 },
@@ -2972,8 +2972,8 @@
                     "type": "Lab",
                     "days": "-T-----",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A217",
                     "instructor": "Brian Koehler"
                 }
@@ -2997,8 +2997,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1730-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -3006,8 +3006,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1730-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -3031,8 +3031,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1930-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B155",
                     "instructor": "Ardeshir Bagheri"
                 },
@@ -3040,8 +3040,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1930-2155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B019",
                     "instructor": "Ardeshir Bagheri"
                 }
@@ -3065,8 +3065,8 @@
                     "type": "Lecture",
                     "days": "-TW----",
                     "time": "1930-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 },
@@ -3074,8 +3074,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1930-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -3099,8 +3099,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Roy Sinn"
                 }
@@ -3124,8 +3124,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Fred Parvaz"
                 }
@@ -3149,8 +3149,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Fred Parvaz"
                 }
@@ -3174,8 +3174,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0900-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Diana Stewart"
                 }
@@ -3199,8 +3199,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1230-1355",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Valerie Simmons"
                 }
@@ -3224,8 +3224,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Joanne Brown"
                 }
@@ -3249,8 +3249,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1300-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Joanne Brown"
                 },
@@ -3258,8 +3258,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1330-1455",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Joanne Brown"
                 }
@@ -3283,8 +3283,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1330-1455",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Carol Turner"
                 },
@@ -3292,8 +3292,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1400-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Carol Turner"
                 }
@@ -3317,8 +3317,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1030-1155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Carolyn Wing"
                 },
@@ -3326,8 +3326,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1330-1455",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Carolyn Wing"
                 }
@@ -3351,8 +3351,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Carol Turner, Diana Stewart, Joanne Brown, Valerie Simmons"
                 }
@@ -3376,8 +3376,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1400-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Carol Turner"
                 }
@@ -3401,8 +3401,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1030-1455",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Carol Turner"
                 }
@@ -3426,8 +3426,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "0830-0955",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Diana Stewart"
                 },
@@ -3435,8 +3435,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1300-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B022",
                     "instructor": "Diana Stewart"
                 }
@@ -3460,8 +3460,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-0955",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Valerie Simmons"
                 },
@@ -3469,8 +3469,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1355",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Valerie Simmons"
                 }
@@ -3494,8 +3494,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Carol Turner, Diana Stewart, Joanne Brown, Valerie Simmons"
                 }
@@ -3519,8 +3519,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1000-1155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Joanne Brown, Monica Molag"
                 },
@@ -3528,8 +3528,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A283",
                     "instructor": "Joanne Brown, Monica Molag"
                 }
@@ -3553,8 +3553,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Carol Turner, Diana Stewart, Joanne Brown"
                 }
@@ -3578,8 +3578,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Valerie Simmons, Carolyn Wing"
                 }
@@ -3603,8 +3603,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Warren Giovannetti"
                 }
@@ -3628,8 +3628,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A122A",
                     "instructor": "Warren Giovannetti"
                 }
@@ -3653,8 +3653,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1830-1955",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A122A",
                     "instructor": "Fulton Tom"
                 }
@@ -3678,8 +3678,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A122B",
                     "instructor": "Warren Giovannetti"
                 }
@@ -3703,8 +3703,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1655",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A122A",
                     "instructor": "Fulton Tom"
                 }
@@ -3728,8 +3728,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1830-1955",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A122A",
                     "instructor": "Wai Ching Kong"
                 }
@@ -3753,8 +3753,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Ruth Bornau"
                 }
@@ -3778,8 +3778,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Ruth Bornau"
                 }
@@ -3803,8 +3803,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Ruth Bornau"
                 }
@@ -3828,8 +3828,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Heather Burt"
                 }
@@ -3853,8 +3853,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Ruth Bornau"
                 }
@@ -3878,8 +3878,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1430-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Heather Burt"
                 }
@@ -3903,8 +3903,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Gordon Pybus"
                 }
@@ -3928,8 +3928,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Gordon Pybus"
                 }
@@ -3953,8 +3953,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Gordon Pybus"
                 }
@@ -3978,8 +3978,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "William Good"
                 }
@@ -4003,8 +4003,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Ciara Lawlor"
                 }
@@ -4028,8 +4028,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Jacqueline Weal"
                 },
@@ -4037,8 +4037,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B248",
                     "instructor": "Jacqueline Weal"
                 }
@@ -4062,8 +4062,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Cheratra Yaswen"
                 }
@@ -4087,8 +4087,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Cheratra Yaswen"
                 }
@@ -4112,8 +4112,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A210",
                     "instructor": "Trevor Newland"
                 }
@@ -4137,8 +4137,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Trevor Newland"
                 }
@@ -4162,8 +4162,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A267",
                     "instructor": "Cheratra Yaswen"
                 }
@@ -4187,8 +4187,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Alban Goulden"
                 }
@@ -4212,8 +4212,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Alban Goulden"
                 }
@@ -4237,8 +4237,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1830-2155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Alban Goulden"
                 }
@@ -4262,8 +4262,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Donald Wood"
                 }
@@ -4287,8 +4287,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "William Good"
                 }
@@ -4312,8 +4312,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A306",
                     "instructor": "Simon Casey"
                 }
@@ -4337,8 +4337,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Jacqueline Weal"
                 }
@@ -4362,8 +4362,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -4387,8 +4387,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1830-2155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Paul Headrick"
                 }
@@ -4412,8 +4412,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Trevor Newland"
                 },
@@ -4421,8 +4421,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "Trevor Newland"
                 }
@@ -4446,8 +4446,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A307",
                     "instructor": "Donald Wood"
                 }
@@ -4471,8 +4471,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A307",
                     "instructor": "Donald Wood"
                 }
@@ -4496,8 +4496,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Cheratra Yaswen"
                 }
@@ -4521,8 +4521,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1830-2155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Alban Goulden"
                 }
@@ -4546,8 +4546,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1125",
-                    "start": "2007-5-22",
-                    "end": "2007-7-03",
+                    "start": "2007-6-22",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Simon Casey"
                 }
@@ -4571,8 +4571,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Ciara Lawlor"
                 }
@@ -4596,8 +4596,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Peter Babiak"
                 }
@@ -4621,8 +4621,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Peter Babiak"
                 }
@@ -4646,8 +4646,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Ciara Lawlor"
                 }
@@ -4671,8 +4671,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Jacqueline Weal"
                 }
@@ -4696,8 +4696,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Paul Headrick"
                 }
@@ -4721,8 +4721,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A327",
                     "instructor": "Noel Currie"
                 }
@@ -4746,8 +4746,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Donald Wood"
                 }
@@ -4771,8 +4771,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1830-2155",
-                    "start": "2007-5-22",
-                    "end": "2007-7-03",
+                    "start": "2007-6-22",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Noel Currie"
                 }
@@ -4796,8 +4796,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Paul Headrick"
                 }
@@ -4821,8 +4821,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "Peter Babiak"
                 }
@@ -4846,8 +4846,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1830-2155",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A320",
                     "instructor": "Heather Burt"
                 }
@@ -4871,8 +4871,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Peter Babiak"
                 },
@@ -4880,8 +4880,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B015",
                     "instructor": "Peter Babiak"
                 }
@@ -4905,8 +4905,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1625",
-                    "start": "2007-4-01",
-                    "end": "2007-6-30",
+                    "start": "2007-5-01",
+                    "end": "2007-7-30",
                     "room": "A314",
                     "instructor": "Kelly Sveinson"
                 }
@@ -4930,8 +4930,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "TBSCH",
                     "instructor": "Garwin Sanford, Carol Kelsay"
                 }
@@ -4955,8 +4955,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "0930-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "TBSCH",
                     "instructor": "Garwin Sanford"
                 }
@@ -4980,8 +4980,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A063",
                     "instructor": "Garwin Sanford"
                 }
@@ -5005,8 +5005,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Gary Fisher"
                 }
@@ -5030,8 +5030,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Gary Fisher"
                 }
@@ -5055,8 +5055,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Byron Lamarque"
                 }
@@ -5080,8 +5080,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Byron Lamarque"
                 }
@@ -5105,8 +5105,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1430-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Garwin Sanford"
                 }
@@ -5130,8 +5130,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5139,8 +5139,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5148,8 +5148,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Alyson Drysdale"
                 }
@@ -5173,8 +5173,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5182,8 +5182,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5191,8 +5191,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Alyson Drysdale"
                 }
@@ -5216,8 +5216,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5225,8 +5225,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A256",
                     "instructor": "Alyson Drysdale"
                 },
@@ -5234,8 +5234,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Alyson Drysdale"
                 }
@@ -5259,8 +5259,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Spencer Dane"
                 }
@@ -5284,8 +5284,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B246",
                     "instructor": "Gordon Clough"
                 }
@@ -5309,8 +5309,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -5334,8 +5334,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -5359,8 +5359,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B246",
                     "instructor": "Gordon Clough"
                 }
@@ -5384,8 +5384,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B245",
                     "instructor": "Mumsy Ullattikulam"
                 }
@@ -5409,8 +5409,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Ellen Hamer"
                 }
@@ -5434,8 +5434,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Ellen Hamer"
                 }
@@ -5459,8 +5459,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B245",
                     "instructor": "Mumsy Ullattikulam"
                 }
@@ -5484,8 +5484,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B245",
                     "instructor": "Mumsy Ullattikulam"
                 }
@@ -5509,8 +5509,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Kevin Rolston"
                 }
@@ -5534,8 +5534,8 @@
                     "type": "Flexible Assessment",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": "Kevin Rolston"
                 }
@@ -5559,8 +5559,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Akash Rattan"
                 }
@@ -5584,8 +5584,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1800-2055",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Akash Rattan"
                 }
@@ -5609,8 +5609,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1800-2055",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Peter Norwood"
                 }
@@ -5634,8 +5634,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A339",
                     "instructor": "Helene Perrault"
                 }
@@ -5659,8 +5659,8 @@
                     "type": "GIS Guided Independent Study",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Helene Perrault"
                 }
@@ -5684,8 +5684,8 @@
                     "type": "GIS Guided Independent Study",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Helene Perrault"
                 }
@@ -5709,8 +5709,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A339",
                     "instructor": "Helene Perrault"
                 }
@@ -5734,8 +5734,8 @@
                     "type": "GIS Guided Independent Study",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Helene Perrault"
                 }
@@ -5759,8 +5759,8 @@
                     "type": "GIS Guided Independent Study",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "NIL",
                     "instructor": "Helene Perrault"
                 }
@@ -5784,8 +5784,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 }
@@ -5809,8 +5809,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 }
@@ -5834,8 +5834,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A136A",
                     "instructor": "Leonard Tang"
                 },
@@ -5843,8 +5843,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A229",
                     "instructor": "Leonard Tang"
                 }
@@ -5868,8 +5868,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A136A",
                     "instructor": "Leonard Tang"
                 },
@@ -5877,8 +5877,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Leonard Tang"
                 }
@@ -5902,8 +5902,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 },
@@ -5911,8 +5911,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 }
@@ -5936,8 +5936,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 },
@@ -5945,8 +5945,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A231",
                     "instructor": "Judith Wright"
                 }
@@ -5970,8 +5970,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "0830-0925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B147",
                     "instructor": "Raoul Grossman"
                 }
@@ -5995,8 +5995,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B147",
                     "instructor": "Raoul Grossman"
                 }
@@ -6020,8 +6020,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B147",
                     "instructor": "Raoul Grossman"
                 }
@@ -6045,8 +6045,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B147",
                     "instructor": "Raoul Grossman"
                 }
@@ -6070,8 +6070,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Jamshid Shahidi"
                 }
@@ -6095,8 +6095,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Ginette Dube, Cassandra Bill, Jessie Smith"
                 }
@@ -6120,8 +6120,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Carol Elder"
                 }
@@ -6145,8 +6145,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Donald Hill"
                 }
@@ -6170,8 +6170,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Douglas White"
                 }
@@ -6195,8 +6195,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Douglas White"
                 }
@@ -6220,8 +6220,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Douglas White"
                 }
@@ -6245,8 +6245,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B247",
                     "instructor": "Stephanie Koonar"
                 }
@@ -6270,8 +6270,8 @@
                     "type": "Practicum",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-01",
-                    "end": "2007-8-30",
+                    "start": "2007-5-01",
+                    "end": "2007-9-30",
                     "room": "OFFC",
                     "instructor": "Kevin Rolston"
                 }
@@ -6295,8 +6295,8 @@
                     "type": "Flexible Assessment",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": "Kevin Rolston"
                 }
@@ -6320,8 +6320,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1830-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Donald Hill"
                 }
@@ -6345,8 +6345,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Rebecca Friesen"
                 }
@@ -6370,8 +6370,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Rebecca Friesen"
                 }
@@ -6395,8 +6395,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B022",
                     "instructor": "Raiomand Parsi-Feraidoonian"
                 }
@@ -6420,8 +6420,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Rebecca Friesen"
                 }
@@ -6445,8 +6445,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Jae-Hyung Jang"
                 }
@@ -6470,8 +6470,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Jae-Hyung Jang"
                 }
@@ -6495,8 +6495,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Emil Savev"
                 }
@@ -6520,8 +6520,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Emmanuel Darkoh"
                 }
@@ -6545,8 +6545,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1730-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Emil Savev"
                 }
@@ -6570,8 +6570,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Emil Savev"
                 }
@@ -6595,8 +6595,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Edgar Avelino"
                 }
@@ -6620,8 +6620,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Emmanuel Darkoh"
                 }
@@ -6645,8 +6645,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B031",
                     "instructor": "Emmanuel Darkoh"
                 }
@@ -6670,8 +6670,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B015",
                     "instructor": "Edgar Avelino"
                 }
@@ -6695,8 +6695,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Rebecca Friesen"
                 }
@@ -6720,8 +6720,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": " ",
                     "instructor": " "
                 }
@@ -6745,8 +6745,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B152",
                     "instructor": "Jae-Hyung Jang"
                 }
@@ -6770,8 +6770,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Ken Collins"
                 }
@@ -6795,8 +6795,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B152",
                     "instructor": "Jae-Hyung Jang"
                 }
@@ -6820,8 +6820,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1630-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B153",
                     "instructor": "Ken Collins"
                 }
@@ -6845,8 +6845,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": " ",
                     "instructor": " "
                 },
@@ -6854,8 +6854,8 @@
                     "type": "Lecture",
                     "days": "-T-RF--",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": " ",
                     "instructor": " "
                 },
@@ -6863,8 +6863,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": " ",
                     "instructor": " "
                 }
@@ -6888,8 +6888,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "B153",
                     "instructor": "Ken Collins"
                 }
@@ -6913,8 +6913,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B153",
                     "instructor": "Bijan Farrahi"
                 }
@@ -6938,8 +6938,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1530-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B154",
                     "instructor": "Emil Savev"
                 }
@@ -6963,8 +6963,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B015",
                     "instructor": "Bijan Farrahi"
                 }
@@ -6988,8 +6988,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B029",
                     "instructor": "J. Giselle Rogers"
                 }
@@ -7013,8 +7013,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A320",
                     "instructor": "Chris Wasylishyn"
                 },
@@ -7022,8 +7022,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Chris Wasylishyn"
                 }
@@ -7047,8 +7047,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Chris Wasylishyn"
                 },
@@ -7056,8 +7056,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Chris Wasylishyn"
                 }
@@ -7081,8 +7081,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1130-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Tina Johnston"
                 },
@@ -7090,8 +7090,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Tina Johnston"
                 }
@@ -7115,8 +7115,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Tina Johnston"
                 },
@@ -7124,8 +7124,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-1925",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Tina Johnston"
                 }
@@ -7149,8 +7149,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A321",
                     "instructor": "Melanie Forseng"
                 },
@@ -7158,8 +7158,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Melanie Forseng"
                 },
@@ -7167,8 +7167,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A369",
                     "instructor": "Melanie Forseng"
                 },
@@ -7176,8 +7176,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Carmen Philippe-Welton, Chris Wasylishyn, Melanie Forseng, Sheilagh Crook, Tina Johnston"
                 }
@@ -7201,8 +7201,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A322",
                     "instructor": "Karima Kassam"
                 },
@@ -7210,8 +7210,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Karima Kassam"
                 },
@@ -7219,8 +7219,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A369",
                     "instructor": "Karima Kassam"
                 },
@@ -7228,8 +7228,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "J. Giselle Rogers, Karima Kassam, Marie Cochrane, Nargis Ghadiali"
                 }
@@ -7253,8 +7253,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Liza Turner"
                 },
@@ -7262,8 +7262,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Heather-Anne Hume, Liza Turner, Michelle Su, Salima Bhanji, Trang Nguyen"
                 }
@@ -7287,8 +7287,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B016",
                     "instructor": "Sharon Stunder"
                 },
@@ -7296,8 +7296,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Jennifer Parsons, Kelly Hughes, Roseller Ofreneo, Sharon Stunder"
                 }
@@ -7321,8 +7321,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Heather-Anne Hume"
                 },
@@ -7330,8 +7330,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "0830-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A369",
                     "instructor": "Salima Bhanji"
                 }
@@ -7355,8 +7355,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Siwon Kim"
                 },
@@ -7364,8 +7364,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1230-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A369",
                     "instructor": "Kelly Hughes"
                 }
@@ -7389,8 +7389,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Douglas Yochim, Alison Currie, Asha Kooner, Debbie Ram-Ditta, Haleh Amini, Hardeep Heir, Harleen Cheema, Monica Chan"
                 },
@@ -7398,8 +7398,8 @@
                     "type": "Practicum",
                     "days": "M------",
                     "time": "0830-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Douglas Yochim, Alison Currie, Asha Kooner, Debbie Ram-Ditta, Haleh Amini, Hardeep Heir, Harleen Cheema, Monica Chan"
                 }
@@ -7423,8 +7423,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Herraj Sandhu"
                 }
@@ -7448,8 +7448,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Lysbeth Cunada"
                 }
@@ -7473,8 +7473,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B016",
                     "instructor": "Susan Calvert"
                 },
@@ -7482,8 +7482,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Lysbeth Cunada, Martie Dobbs, Nancy Woo, Susan Calvert, Susan Reichhardt"
                 }
@@ -7507,8 +7507,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Hana Pecinova"
                 },
@@ -7516,8 +7516,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Anne-Marie Hummelman, Bow-May Lee, Catharine Merten, Cristina Follador, Hana Pecinova, Herraj Sandhu"
                 }
@@ -7541,8 +7541,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B029",
                     "instructor": "Roberta Jokanovich"
                 }
@@ -7566,8 +7566,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0930-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Roberta Jokanovich"
                 }
@@ -7591,8 +7591,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Alice Endrizzi, Andree Bamforth, Bernard Hickey, Maureen Maloney, Paula Maisonville, Pauline Sumel, Rjinder Atwal, Tara Lum"
                 },
@@ -7600,8 +7600,8 @@
                     "type": "Practicum",
                     "days": "M------",
                     "time": "0830-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Alice Endrizzi, Andree Bamforth, Bernard Hickey, Maureen Maloney, Paula Maisonville, Pauline Sumel, Rjinder Atwal, Tara Lum"
                 }
@@ -7625,8 +7625,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B014",
                     "instructor": "Mary Kruger"
                 },
@@ -7634,8 +7634,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Mary Kruger"
                 }
@@ -7659,8 +7659,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B018",
                     "instructor": "Veryl Tipliski"
                 },
@@ -7668,8 +7668,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B016",
                     "instructor": "Veryl Tipliski"
                 }
@@ -7693,8 +7693,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A327",
                     "instructor": "Sharon Ronaldson"
                 },
@@ -7702,8 +7702,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Sharon Ronaldson"
                 }
@@ -7727,8 +7727,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Sharon Ronaldson"
                 },
@@ -7736,8 +7736,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Sharon Ronaldson"
                 }
@@ -7761,8 +7761,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0830-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A328",
                     "instructor": "Richard Wood"
                 },
@@ -7770,8 +7770,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Richard Wood"
                 },
@@ -7779,8 +7779,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Lucille Aunger, Mary Kruger"
                 }
@@ -7804,8 +7804,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A348",
                     "instructor": "Richard Wood"
                 },
@@ -7813,8 +7813,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Richard Wood"
                 },
@@ -7822,8 +7822,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "OFFC",
                     "instructor": "Sukhdev Grewal, Veryl Tipliski"
                 }
@@ -7847,8 +7847,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Lucille Aunger"
                 },
@@ -7856,8 +7856,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1330-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Lucille Aunger"
                 }
@@ -7881,8 +7881,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B022",
                     "instructor": "Sukhdev Grewal"
                 }
@@ -7906,8 +7906,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Kurt Preinsperg"
                 }
@@ -7931,8 +7931,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Kurt Preinsperg"
                 }
@@ -7956,8 +7956,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B009",
                     "instructor": "Kurt Preinsperg"
                 }
@@ -7981,8 +7981,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Alexander Boston"
                 }
@@ -8006,8 +8006,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B026",
                     "instructor": "Alexander Boston"
                 }
@@ -8031,8 +8031,8 @@
                     "type": "Lecture",
                     "days": "MT-RF--",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B022",
                     "instructor": "Alexander Boston"
                 }
@@ -8056,8 +8056,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Alexander Boston"
                 },
@@ -8065,8 +8065,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B016",
                     "instructor": "Alexander Boston"
                 }
@@ -8090,8 +8090,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Johnna Fisher"
                 },
@@ -8099,8 +8099,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B021",
                     "instructor": "Johnna Fisher"
                 }
@@ -8124,8 +8124,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B008",
                     "instructor": "Kurt Preinsperg"
                 }
@@ -8149,8 +8149,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Don Hunter"
                 },
@@ -8158,8 +8158,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1830-2025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A352",
                     "instructor": "Don Hunter"
                 }
@@ -8183,8 +8183,8 @@
                     "type": "Lecture",
                     "days": "-T--F--",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Don Hunter"
                 },
@@ -8192,8 +8192,8 @@
                     "type": "Lecture",
                     "days": "--WR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A346",
                     "instructor": "Don Hunter"
                 },
@@ -8201,8 +8201,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A352",
                     "instructor": "Don Hunter"
                 }
@@ -8226,8 +8226,8 @@
                     "type": "Lecture",
                     "days": "-TWRF--",
                     "time": "1530-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Don Hunter"
                 },
@@ -8235,8 +8235,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A352",
                     "instructor": "Don Hunter"
                 }
@@ -8260,8 +8260,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Pari Ranjbary"
                 },
@@ -8269,8 +8269,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A350",
                     "instructor": "Pari Ranjbary"
                 }
@@ -8294,8 +8294,8 @@
                     "type": "Lecture",
                     "days": "M-W-F--",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A351",
                     "instructor": "Terrence Coates"
                 },
@@ -8303,8 +8303,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A308",
                     "instructor": "Terrence Coates"
                 },
@@ -8312,8 +8312,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A350",
                     "instructor": "Terrence Coates"
                 }
@@ -8337,8 +8337,8 @@
                     "type": "Lecture",
                     "days": "--WR---",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Pari Ranjbary"
                 },
@@ -8346,8 +8346,8 @@
                     "type": "Tutorial",
                     "days": "-T-----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A352",
                     "instructor": "Pari Ranjbary"
                 }
@@ -8371,8 +8371,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Pari Ranjbary"
                 },
@@ -8380,8 +8380,8 @@
                     "type": "Lecture",
                     "days": "-T-RF--",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A347",
                     "instructor": "Pari Ranjbary"
                 },
@@ -8389,8 +8389,8 @@
                     "type": "Lab",
                     "days": "M------",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A350",
                     "instructor": "Pari Ranjbary"
                 }
@@ -8414,8 +8414,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B026",
                     "instructor": "Stephen Phillips"
                 }
@@ -8439,8 +8439,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Stephen Phillips"
                 }
@@ -8464,8 +8464,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1025",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B026",
                     "instructor": "Stephen Phillips"
                 }
@@ -8489,8 +8489,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Stephen Phillips"
                 }
@@ -8514,8 +8514,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "B031",
                     "instructor": "Lealle Ruhl"
                 }
@@ -8539,8 +8539,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A130",
                     "instructor": "Valerie Lloyd"
                 }
@@ -8564,8 +8564,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A130",
                     "instructor": "Shirley Louth"
                 }
@@ -8589,8 +8589,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A130",
                     "instructor": "Linda Scratchley"
                 }
@@ -8614,8 +8614,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B026",
                     "instructor": "Noushine Afshar"
                 }
@@ -8639,8 +8639,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A136A",
                     "instructor": "Noushine Afshar"
                 }
@@ -8664,8 +8664,8 @@
                     "type": "Lecture",
                     "days": "MT-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A136A",
                     "instructor": "Linda Scratchley"
                 }
@@ -8689,8 +8689,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B026",
                     "instructor": "Noushine Afshar"
                 }
@@ -8714,8 +8714,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Valerie Lloyd"
                 }
@@ -8739,8 +8739,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Shirley Louth"
                 }
@@ -8764,8 +8764,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1530-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A247",
                     "instructor": "Byron Lamarque"
                 },
@@ -8773,8 +8773,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-5-15",
+                    "start": "2007-5-07",
+                    "end": "2007-6-15",
                     "room": "A247",
                     "instructor": "Byron Lamarque"
                 },
@@ -8782,8 +8782,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1630-1825",
-                    "start": "2007-5-22",
-                    "end": "2007-7-03",
+                    "start": "2007-6-22",
+                    "end": "2007-8-03",
                     "room": "A247",
                     "instructor": "Byron Lamarque"
                 }
@@ -8807,8 +8807,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1530-2125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A247",
                     "instructor": "Richard Hart"
                 },
@@ -8816,8 +8816,8 @@
                     "type": "Lab",
                     "days": "----F--",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-5-15",
+                    "start": "2007-5-07",
+                    "end": "2007-6-15",
                     "room": "A247",
                     "instructor": "Richard Hart"
                 },
@@ -8825,8 +8825,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1430-1625",
-                    "start": "2007-5-22",
-                    "end": "2007-7-03",
+                    "start": "2007-6-22",
+                    "end": "2007-8-03",
                     "room": "A247",
                     "instructor": "Richard Hart"
                 }
@@ -8850,8 +8850,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1530-1725",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A256",
                     "instructor": "Giselle Lemay"
                 },
@@ -8859,8 +8859,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1530-1825",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A247",
                     "instructor": "Giselle Lemay"
                 }
@@ -8884,8 +8884,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1130-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A122A",
                     "instructor": "Alan Brain"
                 }
@@ -8909,8 +8909,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B030",
                     "instructor": "Alan Brain"
                 }
@@ -8934,8 +8934,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1330-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "A306",
                     "instructor": "Alan Brain"
                 }
@@ -8959,8 +8959,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "A307",
                     "instructor": "Maria Carbonetti"
                 }
@@ -8984,8 +8984,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1425",
-                    "start": "2007-4-07",
-                    "end": "2007-5-19",
+                    "start": "2007-5-07",
+                    "end": "2007-6-19",
                     "room": "B030",
                     "instructor": "Maria Carbonetti"
                 }
@@ -9009,8 +9009,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1225",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Michael Lo"
                 }
@@ -9034,8 +9034,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1525",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Michael Lo"
                 }
@@ -9059,8 +9059,8 @@
                     "type": "Lecture",
                     "days": "MTW----",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B251",
                     "instructor": "Edgar Avelino"
                 },
@@ -9068,8 +9068,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1230-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Edgar Avelino"
                 }
@@ -9093,8 +9093,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B153",
                     "instructor": "Edgar Avelino"
                 }
@@ -9118,8 +9118,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1625",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B253",
                     "instructor": "Emmanuel Darkoh"
                 }
@@ -9143,8 +9143,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1125",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Michael Lo"
                 }
@@ -9168,8 +9168,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "WWW",
                     "instructor": "Cheryl McKeeman"
                 }
@@ -9193,8 +9193,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1130-1325",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B254",
                     "instructor": "Michael Lo"
                 }
@@ -9218,8 +9218,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1800-1955",
-                    "start": "2007-4-07",
-                    "end": "2007-7-03",
+                    "start": "2007-5-07",
+                    "end": "2007-8-03",
                     "room": "B153",
                     "instructor": "Cheryl McKeeman"
                 }
