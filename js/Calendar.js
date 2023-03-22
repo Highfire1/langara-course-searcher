@@ -179,8 +179,8 @@ class Calendar {
 
         // overrides 
         // ie online -> show online only courses only
-        // R -> restricted courses
-        // lab -> courses with lab
+        // TP:R -> restricted courses
+        // schedule:lab -> courses with lab
         // TODO: implement this (possibly make this a seperate menu??)
 
         // TODO: CHANGE THIS TO A DROP DOWN MENU BECAUSE TEXT DOES NOT WORK FOR THIS

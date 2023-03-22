@@ -173,7 +173,7 @@ class Course {
                 title: `${this.subject} ${this.course} ${this.crn}`,
                 description: `${this.subject} ${this.course} ${this.section} <br> ${sch.type} ${sch.room}`,
                 startRecur: new Date(sch["start"]),
-                endRecur: new Date(sch["end"]),
+                endRecur: new Date(new Date(sch["end"]).getTime() + 86400000), // add 24 hours to the date to show 1 day events
                 daysOfWeek: days,
                 startTime: s_time,
                 endTime: e_time,
