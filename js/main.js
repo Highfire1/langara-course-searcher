@@ -6,8 +6,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     calendarClass = new Calendar()
     await calendarClass.fetchData(202320)
 
+    let resources = await (await fetch('json/resources.json')).json()
+    console.log(resources)
+    
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
+      schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
       rerenderDelay: 10,
+      resources: 'json/resources.json',
       timeZone: 'America/Vancouver',
       initialView: 'timeGridWeek',
       slotMinTime:"07:00",
@@ -16,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+        right: 'resourceTimelineDay dayGridMonth,timeGridWeek,timeGridDay'
       },
       weekends: document.getElementById("weekendCheckbox").checked,
       initialDate: new Date(calendarClass.courses_first_day),

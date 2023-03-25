@@ -35,6 +35,31 @@ class Calendar {
           courselist.appendChild(c.courseListHTML)
         }
     }
+
+    generateResources() {
+        resources = [
+            {
+                "id": "A",
+                "name": "A Building",
+                "children": []
+            },
+            {
+                "id": "B",
+                "name": "B Building",
+                "children": []
+            },
+            {
+                "id": "C",
+                "name": "C Building",
+                "children": []
+            },
+            {
+                "id": "A",
+                "name": "A Building",
+                "children": []
+            },
+        ]
+    }
     
     
     // Toggles visibility of course in calendar

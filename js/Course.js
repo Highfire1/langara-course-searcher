@@ -179,6 +179,7 @@ class Course {
                 endTime: e_time,
                 backgroundColor: color,
                 classNames: ["calendartxt"],
+                resourceId: sch.room,
                 overlap: false,
                 extendedProps: {
                     course : this
