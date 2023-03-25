@@ -6,22 +6,26 @@ document.addEventListener('DOMContentLoaded', async function() {
     calendarClass = new Calendar()
     await calendarClass.fetchData(202320)
 
-    let resources = await (await fetch('json/resources.json')).json()
-    console.log(resources)
+    //let resources = await (await fetch('json/resources.json')).json()
+    //console.log(resources)
     
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
       schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
       rerenderDelay: 10,
-      resources: 'json/resources.json',
+      resourceGroupField: 'groupId',
+      resourceGroupLabelContent: function(arg) {return timelineLabelApplier(arg.groupValue)},
+      resources: function(fetchInfo, successCallback, failureCallback) {successCallback(calendarClass.generateResources())},
+      resourceAreaWidth: "120px",
+      eventClick: function(eventClickInfo) {console.log(calendarClass.showCourseInfo(eventClickInfo.event.id))},
       timeZone: 'America/Vancouver',
-      initialView: 'timeGridWeek',
+      initialView: 'resourceTimelineDay', //'timeGridWeek',
       slotMinTime:"07:00",
       slotMaxTime:"22:00",
       displayEventTime: false,
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'resourceTimelineDay dayGridMonth,timeGridWeek,timeGridDay'
+        right: 'resourceTimelineDay,resourceTimelineWeek dayGridMonth,timeGridWeek,timeGridDay'
       },
       weekends: document.getElementById("weekendCheckbox").checked,
       initialDate: new Date(calendarClass.courses_first_day),
@@ -92,21 +96,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     })
 
     // toggle all
+    let allCoursesShown = false
     this.getElementById("showAllButton").addEventListener("click", function (event) {
       console.log(event.target.value, event.target.value == "Show all courses in list.")
 
-      if (event.target.value == "Show all courses in list.") {
+      if (!allCoursesShown) {
         let state = FCalendar.getOption('weekends')
         
         FCalendar.setOption('weekends', true) // must toggle weekends for them to render properly idk why
         calendarClass.toggleAllFCalendar(true)
         FCalendar.setOption('weekends', state)
         event.target.value = "Hide all courses in list."
+        
 
       } else {
         calendarClass.toggleAllFCalendar(false)
         event.target.value = "Show all courses in list."
       }
+
+      allCoursesShown = !allCoursesShown
     })
 
     // populate termSelector and event handler for changing terms
@@ -119,10 +127,17 @@ document.addEventListener('DOMContentLoaded', async function() {
     ts.children[0].remove() // remove 2023 fall as it doesn't exist yet
     
     ts.addEventListener("input", async function (event) {
-      console.log(event.target.value)
+      if (allCoursesShown)
+        calendarClass.toggleAllFCalendar(false) // get rid of courses from previous term
+
       await calendarClass.fetchData(parseInt(event.target.value))
       calendarClass.FCalendar.gotoDate(new Date(calendarClass.courses_first_day))
       calendarClass.courselistUpdate()
+      calendarClass.FCalendar.refetchResources()
+      
+
+      if (allCoursesShown)
+        calendarClass.toggleAllFCalendar(true) // continue showing all courses
     })
 
     // copy courses to clipboard button
@@ -165,3 +180,19 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     //toggleDescriptionCheckbox()
 });
+
+function timelineLabelApplier(name) {
+  let names = {
+    "A" : "A Building",
+    "B" : "B Building",
+    "C" : "C Building",
+    "G" : "Gymnasium",
+    "L" : "Library",
+    "T" : "T Building",
+    "O" : "Off Campus",
+    "W" : "WWW / Online",
+    "?" : "Other",
+  } 
+
+  return names[name]
+}

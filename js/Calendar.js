@@ -37,28 +37,40 @@ class Calendar {
     }
 
     generateResources() {
-        resources = [
-            {
-                "id": "A",
-                "name": "A Building",
-                "children": []
-            },
-            {
-                "id": "B",
-                "name": "B Building",
-                "children": []
-            },
-            {
-                "id": "C",
-                "name": "C Building",
-                "children": []
-            },
-            {
-                "id": "A",
-                "name": "A Building",
-                "children": []
-            },
-        ]
+        let unique_locations = []
+
+        for (const c of this.courses) {
+            for (const sch of c.schedule) {
+                if (!(sch.room in unique_locations)) {
+                    unique_locations.push(sch.room)
+                }
+            }
+        }
+
+        unique_locations.sort()
+
+        let resources = []
+        for (const location of unique_locations) {
+            if (location == "TBSCH") {
+                resources.push({
+                    id: "TBSCH",
+                    groupId: "?"
+                })
+            } else if (!["A", "B", "C", "G", "L", "T", "O", "W"].includes(location.slice(0, 1))) {
+                console.log("Unknown location found: " + location)
+                resources.push({
+                    id: location,
+                    groupId: "?"
+                })
+            } else {
+                resources.push({
+                    id: location,
+                    groupId: location.slice(0, 1)
+                })
+            }
+        }
+        console.log(resources)
+        return resources
     }
     
     
