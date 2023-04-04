@@ -28,8 +28,18 @@
     <div id="outer-container">
         <div id="sidebar">
             <div id="sidebarcontainer">
-                    <input type="text" id="courseSearchBar" placeholder="Search for course...">
+                <header>
+                    <p>❤️</p>
+                    <a href="https://github.com/Highfire1/langara-course-searcher">Github</a>
+                    <a class="hidden">About</a>
+                    <a class="hidden">FAQ</a>
+                    <p>❤️</p>
+                </header>
+
+                <input type="text" id="courseSearchBar" placeholder="Search for course...">
+                
                 <div id="courseOptions">
+                    
                     <p id="searchResults">Loading courses...</p>
 
                     <input type="checkbox" id="weekendCheckbox">
@@ -126,7 +136,11 @@
                     <br>
                     <input id="showAllButton" type="button" value="Show all courses in list.">
                     <br>
-                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">                
+                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">  
+                    
+                    <br>
+                    <input type="checkbox" id="showColors">
+                    <label for="showColors">Highlight courses by seats available.</label>
                 </div>
             
 
@@ -136,11 +150,7 @@
                     </div>
                 </div>
 
-                <div id="selectedcourselist" class="hidden">
-                    <div>
-                        <h3 >No courses selected</h3>
-                    </div>
-                </div>
+
             </div>
         </div>
         <div id="content">

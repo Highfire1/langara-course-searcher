@@ -62,12 +62,37 @@ class Course {
         
         let html = `
             <h3 class="courselisttitle">${this.subject} ${this.course} ${this.section} : ${this.title} </h3>
-            ${scheduleHTML}
         `
+        let color = ""
+
+        if (this.seats == "Cancel") {
+            html += `<p>Cancelled.</p>`
+            color = "red"
+        } else if (this.seats != 0 && this.waitlist == "Full") {
+            html += `<p>${this.seats} seats available. Waitlist is full.</p>`
+            color = "yellow"
+        } else if (this.seats == 0 && this.waitlist == "Full") {
+            html += `<p>Seats and waitlist are full.</p>`
+            color = "red"
+        } else if (this.seats != 0 && this.waitlist == " ") {
+            html += `<p>${this.seats} seats available.</p>`
+            color = "green"
+        } else if (this.seats != 0 && this.waitlist != "Full") {
+            html += `<p>${this.seats} seats available. ${this.waitlist} on waitlist.</p>`
+            color = "yellow"
+        } else if (this.seats == 0 && this.waitlist != "Full") {
+            html += `<p>No seats available. ${this.waitlist} on waitlist.</p>`
+            color = "yellow" 
+        }
+        html += scheduleHTML
+
         let temp = document.createElement('div');
         temp.innerHTML = html
         temp.id = this.crn
-        temp.className = "courselistcourse"
+        temp.className = `courselistcourse ${color}`
+        if (!document.getElementById("showColors").checked) {
+            temp.classList.add("blue")
+        }
 
         return temp
     }
@@ -89,7 +114,13 @@ class Course {
         html += `<div class="sched">`
         html += `<p>Type</p><p>Day(s)</p><p>Time</p><p>Non Standard Start</p><p>Non Standard End</p><p>Room</p><p>Instructor(s)</p>`
         for (const sch of this.schedule) {
-            html += `<p>${sch.type}</p><p>${sch.days}</p><p>${sch.time}</p><p>${sch.start}</p><p>${sch.end}</p><p>${sch.room}</p><p>${sch.instructor}</p>`
+            let start = sch.start
+            if (start===null) 
+                start = ""
+            let end = sch.end
+            if (end===null) 
+                end = ""
+            html += `<p>${sch.type}</p><p>${sch.days}</p><p>${sch.time}</p><p>${start}</p><p>${end}</p><p>${sch.room}</p><p>${sch.instructor}</p>`
         }
         html += "</div>"
 

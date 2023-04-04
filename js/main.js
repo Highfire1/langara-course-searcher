@@ -52,6 +52,17 @@ document.addEventListener('DOMContentLoaded', async function() {
         FCalendar.setOption('weekends', event.target.checked)
         FCalendar.render()
     })
+    this.getElementById("showColors").addEventListener("input", function (event) {
+      if (document.getElementById("showColors").checked) {
+        for (const e of document.getElementById("courselist").children )
+          e.classList.remove("blue")
+      } else {
+        for (const e of document.getElementById("courselist").children )
+          e.classList.add("blue")
+      }
+
+      
+    })
 
     // show/hide courses on calendar when they are clicked on
     this.getElementById("courselist").addEventListener("click", function (event) {

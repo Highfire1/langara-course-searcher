@@ -31,7 +31,7 @@ body {
 
 #sidebarcontainer {
     width: 90%;
-    height: 95%;
+    height: 96vh;
     margin-top: 5%;
     margin-left: 5%;
     
@@ -39,7 +39,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 9fr 0;
+    grid-template-rows: auto auto auto 1fr;
     row-gap: 15px;
 }
 
@@ -47,11 +47,9 @@ body {
 #sidebarcontainer > div {
     overflow:scroll;
     overflow-y:scroll;
-    background-color: lightblue;
     border-radius: 5px;
 
     border:1px solid black;
-    border-color: black;
 
 }
 
@@ -59,14 +57,17 @@ body {
     font-size: 20pt;
     width: 98%; /* This doesn't line up with the rest of the sidebar divs idk why*/
     border-radius: 10px;
+    height: min-content;
 }
 
 #courseOptions {
     resize: vertical;
     min-height: 17px;
-    max-height: calc(6em + 21px + 8vh); /* TODO: do this properly */
+    max-height: calc(6em + 21px + 7vh); /* TODO: do this properly */
     height: fit-content;
-    padding: 10px
+    padding: 10px;
+    background-color: lightblue;
+
 }
 
 #courseOptions * {
@@ -75,9 +76,9 @@ body {
 
 
 #courselist {
+    background-color: lightblue;
+
     overflow-y:scroll;
-    height: 100%;
-    min-height: 100%;
 
     position: inherit;
 }
@@ -86,12 +87,43 @@ body {
     width:fit-content
 }
 
-.courselisttitle:hover {
+.courselisttitle {
     text-decoration: underline;
 }
 
-#selectedcourselist {
 
+.red {
+    background-color: lightcoral;
+}
+
+.yellow {
+    background-color: rgb(221, 221, 144);
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: lightblue;
+
+    height: min-content;
+
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 5px;
+    
+}
+
+header > * {
+    margin: 0;
 }
 
 
