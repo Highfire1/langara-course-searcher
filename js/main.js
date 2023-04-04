@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       } else if (target.nodeName != "DIV") {
         target = event.target.parentElement
       
-      } if (target.className == "courselistcourse") {
+      } if (target.classList.contains("courselistcourse")) {
         calendarClass.toggleFCalendar(target.id)
         calendarClass.courselistUpdate()
       }
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       if (target.nodeName != "DIV")
         target = event.target.parentElement
       
-      if (target.className == "courselistcourse")
+      if (target.classList.contains("courselistcourse"))
       
       calendarClass.setGhostFCalendar(target.id)
     })
