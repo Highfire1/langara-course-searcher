@@ -63,7 +63,7 @@ body {
 #courseOptions {
     resize: vertical;
     min-height: 17px;
-    max-height: calc(6em + 21px + 7vh); /* TODO: do this properly */
+    max-height: calc(6em + 25px + 8vh); /* TODO: do this properly */
     height: fit-content;
     padding: 10px;
     background-color: lightblue;
