@@ -57,7 +57,7 @@ class Calendar {
                     groupId: "?"
                 })
             } else if (!["A", "B", "C", "G", "L", "T", "O", "W"].includes(location.slice(0, 1))) {
-                console.log("Unknown location found: " + location)
+                //console.log("Unknown location found: " + location)
                 resources.push({
                     id: location,
                     groupId: "?"
@@ -69,7 +69,6 @@ class Calendar {
                 })
             }
         }
-        console.log(resources)
         return resources
     }
     

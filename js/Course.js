@@ -142,7 +142,9 @@ class Course {
             FCalendar.getEventById(this.crn).remove()
         
         this.shown = false
-        document.getElementById(this.crn).style.backgroundColor = null
+        // fix weird bug with changing terms - i should fix this properly at some point
+        if (document.getElementById(this.crn) != null)
+            document.getElementById(this.crn).style.backgroundColor = null // change the color of the courselist div back to normal
     }
 
     showFCalendar(FCalendar, color="#279AF1") {
@@ -151,6 +153,10 @@ class Course {
 
             if (sch.days === "-------"){
                 continue // if there's no time slot then we don't need to render it
+            }
+            if (sch.days.trim() === "") {
+                console.log("No time data for ", this)
+                continue // temporary workaround to badly parsed json
             }
 
             // convert M-W---- to [1, 3]

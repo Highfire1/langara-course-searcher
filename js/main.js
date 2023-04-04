@@ -4,31 +4,33 @@ var calendarClass
 document.addEventListener('DOMContentLoaded', async function() {
     var calendarElement = document.getElementById('calendar');
     calendarClass = new Calendar()
-    await calendarClass.fetchData(202320)
-
-    //let resources = await (await fetch('json/resources.json')).json()
-    //console.log(resources)
+    await calendarClass.fetchData(document.getElementById("termSelector").value )
     
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
       schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
       rerenderDelay: 10,
+
+      // resource stuff
       resourceGroupField: 'groupId',
       resourceGroupLabelContent: function(arg) {return timelineLabelApplier(arg.groupValue)},
       resources: function(fetchInfo, successCallback, failureCallback) {successCallback(calendarClass.generateResources())},
       resourceAreaWidth: "120px",
+      // show class info when clicked
       eventClick: function(eventClickInfo) {console.log(calendarClass.showCourseInfo(eventClickInfo.event.id))},
+
+      // calendar stuff
       timeZone: 'America/Vancouver',
-      initialView: 'resourceTimelineDay', //'timeGridWeek',
-      slotMinTime:"07:00",
+      initialView: 'timeGridWeek', // 'resourceTimelineDay'
+      slotMinTime:"07:00", // classes start 7:30 and end 9:30
       slotMaxTime:"22:00",
-      displayEventTime: false,
+      displayEventTime: false, // honestly not sure what this does
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
         right: 'resourceTimelineDay,resourceTimelineWeek dayGridMonth,timeGridWeek,timeGridDay'
       },
       weekends: document.getElementById("weekendCheckbox").checked,
-      initialDate: new Date(calendarClass.courses_first_day),
+      initialDate: new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000), // start on the second week of courses
       slotEventOverlap:false,
       
       // fires when event is created, adds a second line of text to event because you can't by default ._.
@@ -98,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // toggle all
     let allCoursesShown = false
     this.getElementById("showAllButton").addEventListener("click", function (event) {
-      console.log(event.target.value, event.target.value == "Show all courses in list.")
+      //console.log(event.target.value, event.target.value == "Show all courses in list.")
 
       if (!allCoursesShown) {
         let state = FCalendar.getOption('weekends')
@@ -118,20 +120,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     })
 
     // populate termSelector and event handler for changing terms
-    let ts = this.getElementById("termSelector")
-    for (let i=2023; i >= 2000; i--) {
-      ts.innerHTML += `<option value="${i}30">${i} Fall</option>`
-      ts.innerHTML += `<option value="${i}20">${i} Summer</option>`
-      ts.innerHTML += `<option value="${i}10">${i} Spring</option>`
-    }
-    ts.children[0].remove() // remove 2023 fall as it doesn't exist yet
-    
+    let ts = this.getElementById("termSelector")    
     ts.addEventListener("input", async function (event) {
       if (allCoursesShown)
         calendarClass.toggleAllFCalendar(false) // get rid of courses from previous term
 
       await calendarClass.fetchData(parseInt(event.target.value))
-      calendarClass.FCalendar.gotoDate(new Date(calendarClass.courses_first_day))
+      calendarClass.FCalendar.gotoDate(new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000))
       calendarClass.courselistUpdate()
       calendarClass.FCalendar.refetchResources()
       
