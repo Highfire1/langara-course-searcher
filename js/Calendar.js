@@ -24,7 +24,7 @@ class Calendar {
         
         this.courses = []
         for (const c of data["courses"]) {
-            this.courses.push(new Course(c))
+            this.courses.push(new Course(c, this))
         }
 
         // generate course list 

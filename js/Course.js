@@ -1,5 +1,8 @@
 class Course {
-    constructor(data) {        
+    constructor(data, Calendar) {    
+        this.Calendar = Calendar // BAD BAD VIOLATES OOP THIS WHOLE CODEBASE NEEDS A REWRITE
+        
+        
         this.RP = data["RP"]
         this.seats = data["seats"]
         this.waitlist = data["waitlist"]
@@ -168,18 +171,26 @@ class Course {
                 }
                 value = (value + 1) % 7        
             }
-
+            
             let times = sch.time.split("-")
             let s_time = times[0].slice(0, 2) + ":" + times[0].slice(2, 4)
             let e_time = times[1].slice(0, 2) + ":" + times[1].slice(2, 4)
             
+            let start = sch["start"]
+            if (start === null)
+                start = this.Calendar.courses_first_day
+
+            let end = sch["end"]
+            if (end === null)
+                end = this.Calendar.courses_last_day
+
             //console.log(new Date(sch["start"]), sch["end"])
             let f = {
                 id: this.crn,
                 title: `${this.subject} ${this.course} ${this.crn}`,
                 description: `${this.subject} ${this.course} ${this.section} <br> ${sch.type} ${sch.room}`,
-                startRecur: new Date(sch["start"]),
-                endRecur: new Date(new Date(sch["end"]).getTime() + 86400000), // add 24 hours to the date to show 1 day events
+                startRecur: new Date(start),
+                endRecur: new Date(new Date(end).getTime() + 86400000), // add 24 hours to the date to show 1 day events
                 daysOfWeek: days,
                 startTime: s_time,
                 endTime: e_time,
