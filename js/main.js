@@ -4,7 +4,10 @@ var calendarClass
 document.addEventListener('DOMContentLoaded', async function() {
     var calendarElement = document.getElementById('calendar');
     calendarClass = new Calendar()
+    
+    console.log(document.getElementById("termSelector").value )
     await calendarClass.fetchData(document.getElementById("termSelector").value )
+
     
     var FCalendar = new FullCalendar.Calendar(calendarElement, {
       schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
@@ -136,11 +139,10 @@ document.addEventListener('DOMContentLoaded', async function() {
       if (allCoursesShown)
         calendarClass.toggleAllFCalendar(false) // get rid of courses from previous term
 
-      await calendarClass.fetchData(parseInt(event.target.value))
-      calendarClass.FCalendar.gotoDate(new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000))
-      calendarClass.courselistUpdate()
-      calendarClass.FCalendar.refetchResources()
+      await calendarClass.fetchData(event.target.value)
       
+      // set the current date to the first day of semester plus a week
+     calendarClass.newCourseDataLoaded()
 
       if (allCoursesShown)
         calendarClass.toggleAllFCalendar(true) // continue showing all courses

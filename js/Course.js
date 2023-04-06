@@ -89,7 +89,7 @@ class Course {
         let temp = document.createElement('div');
         temp.innerHTML = html
         temp.id = this.crn
-        temp.className = `courselistcourse ${color}`
+        temp.className = `courselistcourse hidden ${color}`
         if (!document.getElementById("showColors").checked) {
             temp.classList.add("blue")
         }

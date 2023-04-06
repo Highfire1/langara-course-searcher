@@ -7,11 +7,28 @@ class Calendar {
         this.courses_filtered = []
 
         this.courses_oncalendar = []
+
+        this.datetime_retrieved = null
+        this.year = null
+        this.semester = null
+        this.courses_first_day = "2023-1-01"
+        this.courses_last_day = null
     }
 
     async fetchData(yearSemester) {
+        
+        // clear current data
         this.ghostCourse = null
-        // Load data
+        this.courses = []
+        document.getElementById("courselist").textContent =''
+        document.getElementById("searchResults").textContent = "Loading courses..."
+
+        // Load new data
+        if (yearSemester == "ALL SEMESTERS") {
+            await this.FetchAllData()
+            return
+        }
+
         let data = await fetch('json/' + yearSemester + '.json')
         data = await data.json()
 
@@ -22,7 +39,6 @@ class Calendar {
         this.courses_last_day = data["courses_last_day"]
         
         
-        this.courses = []
         for (const c of data["courses"]) {
             this.courses.push(new Course(c, this))
         }
@@ -34,6 +50,60 @@ class Calendar {
         for (const c of this.courses) {
           courselist.appendChild(c.courseListHTML)
         }
+    }
+
+    async FetchAllData() {
+        console.log("Fetching all data.")
+
+
+        for (const semester of document.getElementById("termSelector").children ) {
+            
+            let yearSemester = semester.value
+            if (yearSemester == "ALL SEMESTERS") {
+                continue
+            }
+
+
+            let data = await fetch('json/' + yearSemester + '.json')
+            data = await data.json()
+
+            this.datetime_retrieved = data["datetime_retrieved"]
+            this.year = data["year"]
+            this.semester = data["semester"]
+            this.courses_first_day = data["courses_first_day"]
+            this.courses_last_day = data["courses_last_day"]
+
+            
+            for (const c of data["courses"]) {
+                this.courses.push(new Course(c, this))
+            }  
+
+            console.log(`Fetched ${yearSemester}.`)
+        }
+
+        console.log("Finished fetching data. Starting generating html.")
+
+        var courselist = document.getElementById("courselist")
+        courselist.innerHTML = ""
+        
+        let i=0
+        for (const c of this.courses) {
+            if (i % 500 == 0)
+                console.log(`${i}/${this.courses.length} courses parsed.`)
+            i+= 1
+            courselist.appendChild(c.courseListHTML)
+        }
+
+        console.log("Done.")
+        
+    }
+
+    newCourseDataLoaded() {
+        this.FCalendar.gotoDate(new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000))
+      
+        this.courselistUpdate()
+        this.FCalendar.refetchResources()
+        
     }
 
     generateResources() {
@@ -146,7 +216,12 @@ class Calendar {
 
     // Toggles all courses
     toggleAllFCalendar(show) {
+        let i = 0
+            
         for (const c of this.courses_filtered) {
+            if (this.courses_filtered.length > 5000 && i % 500 ==0) 
+                console.log(`${i}/${this.courses_filtered.length}`)
+            i
             if (show)  {
                 c.showFCalendar(this.FCalendar)
             } else {
@@ -396,17 +471,26 @@ class Calendar {
 
     reloadCourseList() {
         const count = this.courses_filtered.length
+        let results = document.getElementById("searchResults")
+
+        let max_shown = 100000
+
         if (count == 0) 
-            document.getElementById("searchResults").innerText = "No courses found. Try a different search query!"
+            results.innerText = "No courses found. Try a different search query!"
+        if (count >= max_shown)
+            results.innerText = `${count} courses shown. Hiding courselist until courses are below ${max_shown} to reduce lag.`
         else 
-            document.getElementById("searchResults").innerText = `${count} courses shown.`
+        results.innerText = `${count} courses shown.`
 
         
-
-        for(const c of this.courses_filtered.reverse()) {
-            c.courseListHTML.classList.remove("hidden")
+        // show filtered courses
+        if (count < max_shown) {
+            for(const c of this.courses_filtered.reverse()) {
+                c.courseListHTML.classList.remove("hidden")
+            }
         }
-
+        
+        
         // keep selected courses on list
         // might be better to just make a second bar for this
         for(const c of this.courses_hidden) {
