@@ -80,6 +80,10 @@ class Course {
         } else if (this.seats != 0 && this.waitlist != "Full") {
             html += `<p>${this.seats} seats available. ${this.waitlist} on waitlist.</p>`
             color = "yellow"
+        } else if (this.seats == 0 && this.waitlist > 30) {
+            // if waitlist is above 30 you very likely aren't getting through 
+            html += `<p>${this.seats} seats available. ${this.waitlist} on waitlist.</p>`
+            color = "red" 
         } else if (this.seats == 0 && this.waitlist != "Full") {
             html += `<p>No seats available. ${this.waitlist} on waitlist.</p>`
             color = "yellow" 

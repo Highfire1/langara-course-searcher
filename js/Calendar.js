@@ -89,7 +89,7 @@ class Calendar {
         let i=0
         for (const c of this.courses) {
             if (i % 500 == 0)
-                console.log(`${i}/${this.courses.length} courses parsed.`)
+                console.log(`${i}/${this.courses.length} courses rendered.`)
             i+= 1
             courselist.appendChild(c.courseListHTML)
         }
