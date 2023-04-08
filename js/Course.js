@@ -1,23 +1,35 @@
-class Course {
-    constructor(data, Calendar) {    
-        this.Calendar = Calendar // BAD BAD VIOLATES OOP THIS WHOLE CODEBASE NEEDS A REWRITE
-        
-        
-        this.RP = data["RP"]
-        this.seats = data["seats"]
-        this.waitlist = data["waitlist"]
-        this.crn = data["crn"]
-        this.subject = data["subject"]
-        this.course = data["course"]
-        this.section = data["section"]
-        this.credits = data["credits"]
-        this.title = data["title"]
-        this.add_fees = data["add_fees"]
-        this.rpt_limit = data["rpt_limit"]
-        this.notes = data["notes"]
-        this.schedule = data["schedule"]
+function format_data(data) {
+    if (data === null) 
+        return ""
+    return data
+    
+}
 
-        this.subjectCourse = this.subject + " " + this.course
+
+class Course {
+    constructor(data, Calendar, year, semester) {    
+        this.Calendar = Calendar // BAD BAD VIOLATES OOP THIS WHOLE CODEBASE NEEDS A REWRITE
+                
+        this.RP = format_data(data["RP"])
+        this.seats = format_data(data["seats"])
+        this.waitlist = format_data(data["waitlist"])
+        this.crn = format_data(data["crn"])
+        this.subject = format_data(data["subject"])
+        this.course_code = format_data(data["course_code"])
+        this.section = format_data(data["section"])
+        this.credits = format_data(data["credits"])
+        this.title = format_data(data["title"])
+        this.add_fees = format_data(data["add_fees"])
+        this.rpt_limit = format_data(data["rpt_limit"])
+        this.notes = format_data(data["notes"])
+        this.schedule = format_data(data["schedule"])
+
+        this.year = year
+        this.semester = semester
+        this.id = `${year}_${semester}_${this.crn}` // 2023_20_20123 # unique id for each course
+
+
+        this.subjectCourse = this.subject + " " + this.course_code
         this.scheduleSearch = []
         for (const sch of this.schedule) {
             this.scheduleSearch.push(sch["type"])
@@ -25,10 +37,13 @@ class Course {
             this.scheduleSearch.push(sch["room"])
             this.scheduleSearch.push(sch["instructor"])
         }
-        this.scheduleSearch = [...new Set(this.scheduleSearch)] // remove duplicate values i know its not efficient to add then remove duplicates shush
+        // remove duplicate values i know its not efficient to add then remove duplicates shush
+        // ie if there's a lecture and lab with the same teacher, we only put the teacher in search once, instead of twice
+        this.scheduleSearch = [...new Set(this.scheduleSearch)] 
         this.scheduleSearch = this.scheduleSearch.join(" ")
         
-        this.fuzzySearch = `${this.subject} ${this.course} ${this.crn} ${this.title} ${this.scheduleSearch}`
+        // used with fuse
+        this.fuzzySearch = `${this.subject} ${this.course_code} ${this.crn} ${this.title} ${this.scheduleSearch}`
         if (this.notes != null) 
             this.fuzzySearch += " " + this.notes
 
@@ -39,7 +54,7 @@ class Course {
     }
 
     toString() {
-        let out = `${this.RP} ${this.seats} ${this.waitlist} ${this.crn} ${this.subject} ${this.course} ${this.section} ${this.credits} ${this.title} ${this.add_fees}`
+        let out = `${this.RP} ${this.seats} ${this.waitlist} ${this.crn} ${this.subject} ${this.course_code} ${this.section} ${this.credits} ${this.title} ${this.add_fees}`
 
         for (const s of this.schedule) {
             out += "\n" + `\t${s.type} ${s.days} ${s.time} ${s.start} ${s.end} ${s.room} ${s.instructor}`
@@ -61,7 +76,7 @@ class Course {
         }
         
         let html = `
-            <h3 class="courselisttitle">${this.subject} ${this.course} ${this.section} : ${this.title} </h3>
+            <h3 class="courselisttitle">${this.subject} ${this.course_code} ${this.section} : ${this.title} </h3>
         `
         let color = ""
 
@@ -92,7 +107,7 @@ class Course {
 
         let temp = document.createElement('div');
         temp.innerHTML = html
-        temp.id = this.crn
+        temp.id = this.id
         temp.className = `courselistcourse hidden ${color}`
         if (!document.getElementById("showColors").checked) {
             temp.classList.add("blue")
@@ -112,7 +127,7 @@ class Course {
         iframe {width:90vw; height: 300px; padding: 10px;} 
         </style>`
 
-        html += `<h2>${this.subject} ${this.course} ${this.section} ${this.crn}: ${this.title} </h2>`
+        html += `<h2>${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title} </h2>`
 
         
         html += `<div class="sched">`
@@ -135,7 +150,7 @@ class Course {
         html += `<p># On Waitlist</p><p>${this.waitlist}</p>`
         html += `<p>CRN</p><p>${this.crn}</p>`
         html += `<p>Subject</p><p>${this.subject}</p>`
-        html += `<p>Course</p><p>${this.course}</p>`
+        html += `<p>Course</p><p>${this.course_code}</p>`
         html += `<p>Section</p><p>${this.section}</p>`
         html += `<p>Credits</p><p>${this.credits}</p>`
         html += `<p>Title</p><p>${this.title}</p>`
@@ -145,7 +160,7 @@ class Course {
         html += "</div><br>"
 
         html += "<h2>Course Information</h2>"
-        html += `<iframe src="https://swing.langara.bc.ca/prod/hzgkcald.P_DisplayCatalog?term_in=202320&subj=${this.subject}&crse=${this.course}"></iframe>`
+        html += `<iframe src="https://swing.langara.bc.ca/prod/hzgkcald.P_DisplayCatalog?term_in=202320&subj=${this.subject}&crse=${this.course_code}"></iframe>`
 
         html += "<h2>Transferability</h2>"
         html += `
@@ -176,13 +191,13 @@ class Course {
     hideFCalendar(FCalendar) {
         // getEventById only returns one event at a time
         // but getEvents doesn't get events that aren't currently shown so it doesn't work
-        while (FCalendar.getEventById(this.crn) != null) 
-            FCalendar.getEventById(this.crn).remove()
+        while (FCalendar.getEventById(this.id) != null) 
+            FCalendar.getEventById(this.id).remove()
         
         this.shown = false
         // fix weird bug with changing terms - i should fix this properly at some point
-        if (document.getElementById(this.crn) != null)
-            document.getElementById(this.crn).style.backgroundColor = null // change the color of the courselist div back to normal
+        if (document.getElementById(this.id) != null)
+            document.getElementById(this.id).style.backgroundColor = null // change the color of the courselist div back to normal
     }
 
     showFCalendar(FCalendar, color="#279AF1") {
@@ -221,9 +236,9 @@ class Course {
 
             //console.log(new Date(sch["start"]), sch["end"])
             let f = {
-                id: this.crn,
-                title: `${this.subject} ${this.course} ${this.crn}`,
-                description: `${this.subject} ${this.course} ${this.section} <br> ${sch.type} ${sch.room}`,
+                id: this.id,
+                title: `${this.subject} ${this.course_code} ${this.crn}`,
+                description: `${this.subject} ${this.course_code} ${this.section} <br> ${sch.type} ${sch.room}`,
                 startRecur: new Date(start),
                 endRecur: new Date(new Date(end).getTime() + 86400000), // add 24 hours to the date to show 1 day events
                 daysOfWeek: days,
@@ -234,7 +249,7 @@ class Course {
                 resourceId: sch.room,
                 overlap: false,
                 extendedProps: {
-                    course : this
+                    course_code : this
                 },
                 source: "json"
               }
@@ -244,7 +259,7 @@ class Course {
         }
 
         this.shown = true
-        document.getElementById(this.crn).style.backgroundColor = color
+        document.getElementById(this.id).style.backgroundColor = color
     }   
 
 

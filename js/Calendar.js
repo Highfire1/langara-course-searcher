@@ -40,7 +40,7 @@ class Calendar {
         
         
         for (const c of data["courses"]) {
-            this.courses.push(new Course(c, this))
+            this.courses.push(new Course(c, this, this.year, this.semester))
         }
 
         // generate course list 
@@ -53,6 +53,7 @@ class Calendar {
     }
 
     async FetchAllData() {
+        alert("Are you sure you want to display courses from ALL SEMESTERS? This may take a few seconds and performance will be suboptimal.")
         console.log("Fetching all data.")
 
 
@@ -79,17 +80,23 @@ class Calendar {
             }  
 
             console.log(`Fetched ${yearSemester}.`)
+            document.getElementById("searchResults").textContent = `Fetching ${yearSemester}. ${this.courses.length} courses found.`
+
         }
 
         console.log("Finished fetching data. Starting generating html.")
+        document.getElementById("searchResults").textContent = `Now rendering ${this.courses.length} courses. Please be patient.`
+        const sleep = ms => new Promise(r => setTimeout(r, ms));
+        await sleep(250);
 
         var courselist = document.getElementById("courselist")
         courselist.innerHTML = ""
         
         let i=0
         for (const c of this.courses) {
-            if (i % 500 == 0)
+            if (i % 500 == 0) {
                 console.log(`${i}/${this.courses.length} courses rendered.`)
+            }
             i+= 1
             courselist.appendChild(c.courseListHTML)
         }
@@ -144,10 +151,10 @@ class Calendar {
     
     
     // Toggles visibility of course in calendar
-    toggleFCalendar(crn) {
+    toggleFCalendar(id) {
 
         for (const c of this.courses) {
-            if (c.crn == crn) {
+            if (c.id == id) {
                 let status = c.toggleFShown(this.FCalendar)
                 this.ghostCourse = null
                 c.ghost = false
@@ -158,7 +165,7 @@ class Calendar {
                     this.courses_oncalendar.push(c)
                 } else {
                     this.courses_oncalendar.splice(this.courses_oncalendar.indexOf(c))
-                    this.setGhostFCalendar(crn)
+                    this.setGhostFCalendar(id)
                 }
                 return
             }
@@ -166,16 +173,16 @@ class Calendar {
     }
 
     // Sets the current ghost in FullCalendar
-    setGhostFCalendar(crn) {
-        //console.log(crn, this.ghostCourse, this.ghostCourse === null ? "" : this.ghostCourse.ghost)
+    setGhostFCalendar(id) {
+        //console.log(id, this.ghostCourse, this.ghostCourse === null ? "" : this.ghostCourse.ghost)
         // if nothing is ghosted don't try to delete previous ghost
         if (this.ghostCourse != null) {
             // if its the same course do nothing
-            if (this.ghostCourse.crn === crn)
+            if (this.ghostCourse.id === id)
                 return
 
             // if its a different course then we need to delete the current ghost
-            if (this.ghostCourse.crn != crn)
+            if (this.ghostCourse.id != id)
                 if (this.ghostCourse.ghost) {
                     this.ghostCourse.hideFCalendar(this.FCalendar)
                     this.ghostCourse.ghost = false
@@ -183,13 +190,13 @@ class Calendar {
                 }
         }
 
-        if (crn === null) {
+        if (id === null) {
             this.ghostCourse = null
             return
         }
 
         for (const c of this.courses) {
-            if (c.crn == crn) {
+            if (c.id == id) {
                 // don't do ghost stuff if its shown
                 if (c.shown)
                     return
@@ -202,10 +209,10 @@ class Calendar {
         }
     }
 
-    showCourseInfo(crn) {
+    showCourseInfo(id) {
         let c = null
         for (const course of this.courses) {
-            if (course.crn == crn) {
+            if (course.id == id) {
                 c = course
                 break
             }
@@ -221,7 +228,7 @@ class Calendar {
         for (const c of this.courses_filtered) {
             if (this.courses_filtered.length > 5000 && i % 500 ==0) 
                 console.log(`${i}/${this.courses_filtered.length}`)
-            i
+            i += 1
             if (show)  {
                 c.showFCalendar(this.FCalendar)
             } else {
