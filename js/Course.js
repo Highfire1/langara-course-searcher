@@ -16,6 +16,11 @@ class Course {
         this.crn = format_data(data["crn"])
         this.subject = format_data(data["subject"])
         this.course_code = format_data(data["course_code"])
+        
+        if (this.course_code == undefined) {
+            this.course_code = format_data(data["course"])
+        }
+
         this.section = format_data(data["section"])
         this.credits = format_data(data["credits"])
         this.title = format_data(data["title"])
