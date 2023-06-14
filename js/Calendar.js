@@ -54,6 +54,10 @@ class Calendar {
         for (const c of this.courses) {
           courselist.appendChild(c.courseListHTML)
         }
+
+        data = await fetch("allInfo.json")
+        this.all_courses = await data.json()
+        console.log(this.all_courses)
     }
 
     async FetchAllData() {
@@ -80,7 +84,7 @@ class Calendar {
 
             
             for (const c of data["courses"]) {
-                this.courses.push(new Course(c, this))
+                this.courses.push(new Course(c, this, this.year, this.semester))
             }  
 
             console.log(`Fetched ${yearSemester}.`)
@@ -151,6 +155,16 @@ class Calendar {
             }
         }
         return resources
+    }
+
+    getCourseFromAllCourses(subject, code) {
+
+        for(const c of this.all_courses.courses) {
+            if (c.subject == subject && (c.course_code == code || c.code == code ))
+                return c
+        }
+
+        return null
     }
     
     

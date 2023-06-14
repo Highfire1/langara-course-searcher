@@ -121,19 +121,59 @@ class Course {
         return temp
     }
 
+    
+
     // html for the course info that opens in a new window
     generateCourseInfoHTML(){
+        function attrColor(attribute) {
+            if (object.attributes[attribute])
+                return "green"
+            else
+                return ""
+        }
+
         let html = "<!DOCTYPE html>"
         html += `<style>
         h2 {margin-bottom: 2px;}
         .grid {max-width:90vw; display: grid; grid: auto auto/ fit-content(100%) fit-content(100%);}
         .sched {max-width:90vw; display: grid; grid: auto / repeat(7, fit-content(100%));}
         div > * {border: 1px solid #000; padding-right: 5px; padding-left: 5px; padding-top:2px; padding-bottom:2px; margin: 0;}
-        iframe {width:90vw; height: 300px; padding: 10px;} 
+        iframe {width:90vw; height: 300px; padding: 10px;}
+        
+        .red {background-color: rgb(253, 167, 167);}
+        .yellow {background-color: rgb(241, 241, 162);}
+        .green {background-color: rgb(126, 198, 126);} 
+        table {
+            border-collapse: collapse;
+        }
+        table > td, tbody > * {
+            vertical-align: top;
+            text-align: left;
+        }    
+        th, td {
+            border: 1px solid #000;
+            text-align: left;
+            padding: 5px;
+        }
+                
+        #transferTable {
+            width: fit-content;
+            table-layout: fixed;
+        }
+        .tablePriority {
+            min-width: max-content;
+        }
+
+        .offeredTable {
+            width: fit-content;
+        }
         </style>`
 
-        html += `<h2>${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title} </h2>`
 
+        let object = this.Calendar.getCourseFromAllCourses(this.subject, this.course_code)
+
+        html += `<h2>${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title} </h2>`
+        html += `<p>${object.description}</p>`
         
         html += `<div class="sched">`
         html += `<p>Type</p><p>Day(s)</p><p>Time</p><p>Non Standard Start</p><p>Non Standard End</p><p>Room</p><p>Instructor(s)</p>`
@@ -164,15 +204,105 @@ class Course {
         html += `<p>Notes</p><p>${this.notes}</p>`
         html += "</div><br>"
 
-        html += "<h2>Course Information</h2>"
-        html += `<iframe src="https://swing.langara.bc.ca/prod/hzgkcald.P_DisplayCatalog?term_in=202320&subj=${this.subject}&crse=${this.course_code}"></iframe>`
-
-        html += "<h2>Transferability</h2>"
-        html += `
-        <div class="sched">
-            <p>Not yet implemented</p>
-        </div>`
+        console.log(object)
         
+
+        if (object.attributes === null)
+            html += "<p><b>No course attributes available.</b></p>"
+        else {
+            html += `
+            <table>
+                <tr> 
+                    <th class=${attrColor("AR")}>2AR</th> 
+                    <th class=${attrColor("SC")}>2SC</th> 
+                    <th class=${attrColor("HUM")}>HUM</th> 
+                    <th class=${attrColor("LSC")}>LSC</th> 
+                    <th class=${attrColor("SCI")}>SCI</th> 
+                    <th class=${attrColor("SOC")}>SOC</th> 
+                    <th class=${attrColor("UT")}>UT</th> 
+                </tr>
+                <tr>
+                    <td class=${attrColor("AR")}>${object.attributes["AR"]}</td>
+                    <td class=${attrColor("SC")}>${object.attributes["SC"]}</td>
+                    <td class=${attrColor("HUM")}>${object.attributes["HUM"]}</td>
+                    <td class=${attrColor("LSC")}>${object.attributes["LSC"]}</td>
+                    <td class=${attrColor("SCI")}>${object.attributes["SCI"]}</td>
+                    <td class=${attrColor("SOC")}>${object.attributes["SOC"]}</td>
+                    <td class=${attrColor("UT")}>${object.attributes["UT"]}</td>
+            </table>
+            <br>
+            `
+        }
+
+        if (object.transfer.length == 0)
+            html += "<p><b>No transfer agreements found.</b></p>"
+        else {
+            html += `<table class="transferTable"> 
+            <th>Course</th><th>Destination</th><th>Credit</th><th>Start/End</th>
+            `
+
+            for (t of object.transfer) {
+
+                let classes = ""
+                if (t.effective_end != "present") 
+                    classes += "hidden "
+
+                if (t.credit == "No credit")
+                    classes += "red "
+                
+                //if (t.credit != undefined)
+                //    console.log(t.credit.split("(").at(-1).split(")").at(0))
+
+                // yellow on ind assessment or if you only get partial credits for transfer
+                if (t.credit == "Individual assessment." || (t.credit != undefined && parseFloat(t.credit.split("(").at(-1).split(")").at(0)) < parseFloat(object.credits)))
+                    classes += "yellow "
+                
+                html += `
+                    <tr class="${classes} ${t.destination}">
+                        <td class="tablePriority">${t.subject} ${t.course_code}</td>
+                        <td class="tablePriority">${t.destination}</td>
+                        <td>${t.credit}</td>
+                        <td class="tablePriority">${t.effective_start} to ${t.effective_end}</td>
+                    </tr>
+                `
+            }
+            html += `</table>`
+        }
+        let sems = object.prev_offered.join(", ")
+        html += `<p>Previously offered : ${sems}.</p>`
+
+        html += `
+        <table class="offeredTable mono"> 
+        <thead><th>Semester</th> <th>Seats</th> <th>Waitlist</th> <th>Days</th> <th>Time</th> <th>Room</th> <th>Type</th> <th>Instructor</th></thead>
+        `
+
+        for (const c of object.offered) {
+            html += `<tbody>`
+            let s = []
+            for (const sch of c.schedule) {
+                s.push(`
+                <td>${sch.days}</td> 
+                <td>${sch.time}</td> 
+                <td>${sch.room}</td> 
+                <td>${sch.instructor}</td>  
+                <td>${sch.type}</td> `
+                )
+            }
+
+            html += `<tr>
+                <td rowspan="${s.length}">${c.yearsemester}</td>
+                <td rowspan="${s.length}">${c.seats}</td>
+                <td rowspan="${s.length}">${c.waitlist}</td>            
+                ${s[0]}
+                </tr>
+            `        
+            for (const string of s.slice(1)) {
+                html += `<tr>${string}</tr>`
+            }
+            html += `</tbody>`
+        }
+
+        html += `</table>`
 
         return html
     }
