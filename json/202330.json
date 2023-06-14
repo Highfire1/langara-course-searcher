@@ -632,8 +632,8 @@
                     "type": "Lecture",
                     "days": "-TWRF--",
                     "time": "0900-1620",
-                    "start": "2023-9-05",
-                    "end": "2023-9-08",
+                    "start": "2023-09-05",
+                    "end": "2023-09-08",
                     "room": "A369",
                     "instructor": "Eric Aderneck"
                 }
@@ -757,8 +757,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0900-1620",
-                    "start": "2023-9-22",
-                    "end": "2023-9-22",
+                    "start": "2023-09-22",
+                    "end": "2023-09-22",
                     "room": "A368",
                     "instructor": "Eric Aderneck"
                 }
@@ -28333,7 +28333,7 @@
                     "type": "Lecture",
                     "days": "M--R---",
                     "time": "1030-1220",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "T315",
                     "instructor": "Yuko Baljak"
@@ -28342,7 +28342,7 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2020",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "WWW",
                     "instructor": "Yuko Baljak"
@@ -28401,7 +28401,7 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "OFFC",
                     "instructor": "Ivy Goula, Bethani McLeod, Christine Nystrom, Gregory Slawson, Yuko Baljak"
@@ -28519,7 +28519,7 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1020",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "T315",
                     "instructor": "Mary Peters"
@@ -28528,7 +28528,7 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2020",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "WWW",
                     "instructor": "Mary Peters"
@@ -28587,7 +28587,7 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1120",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "C509",
                     "instructor": "Karen McColgan"
@@ -28596,7 +28596,7 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-1920",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "WWW",
                     "instructor": "Karen McColgan"
@@ -28655,7 +28655,7 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "OFFC",
                     "instructor": "Hana Pecinova, . TBA, Amandeep Turre, Karen McColgan"
@@ -28705,7 +28705,7 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "OFFC",
                     "instructor": "Mary Peters, . TBA, Baljit Khun-Khun, Cristina Follador, Helen Jackson"
@@ -28755,7 +28755,7 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "OFFC",
                     "instructor": "Patricia Woods, Anne-Marie Hummelman, Asha Kooner, Paramita Banerjee, Tara Lum"
@@ -28805,7 +28805,7 @@
                     "type": "Lecture",
                     "days": "M---F--",
                     "time": "1030-1220",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "C508",
                     "instructor": "Patricia Woods"
@@ -28814,7 +28814,7 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2020",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "WWW",
                     "instructor": "Patricia Woods"
@@ -32160,7 +32160,7 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1630-1820",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "A122A",
                     "instructor": "Nicole Jenni"
@@ -32169,7 +32169,7 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-9-05",
+                    "start": "2023-09-05",
                     "end": "2023-10-18",
                     "room": "WWW",
                     "instructor": "Nicole Jenni"

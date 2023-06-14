@@ -98,8 +98,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1030-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Eric Simons"
                 },
@@ -107,8 +107,8 @@
                     "type": "Field School",
                     "days": "----F--",
                     "time": "1030-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "OFFC",
                     "instructor": "Eric Simons"
                 },
@@ -116,8 +116,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1030-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Eric Simons"
                 }
@@ -141,8 +141,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1430-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Katharine McEwen"
                 },
@@ -150,8 +150,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1430-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Katharine McEwen"
                 }
@@ -175,8 +175,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Eric Simons"
                 },
@@ -184,8 +184,8 @@
                     "type": "Field School",
                     "days": "----F--",
                     "time": "1030-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "OFFC",
                     "instructor": "Eric Simons"
                 },
@@ -193,8 +193,8 @@
                     "type": "Lab",
                     "days": "--W----",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-8-19",
+                    "start": "2023-05-08",
+                    "end": "2023-08-19",
                     "room": "A235",
                     "instructor": "Eric Simons"
                 }
@@ -343,8 +343,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0900-1550",
-                    "start": "2023-5-19",
-                    "end": "2023-5-19",
+                    "start": "2023-05-19",
+                    "end": "2023-05-19",
                     "room": "B009",
                     "instructor": "Erica Tiffany"
                 }
@@ -418,8 +418,8 @@
                     "type": "WWW",
                     "days": "-T-R---",
                     "time": "1030-1320",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Jessa Alston-O'Connor"
                 }
@@ -443,8 +443,8 @@
                     "type": "WWW",
                     "days": "-T-R---",
                     "time": "1030-1320",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "WWW",
                     "instructor": "Jessa Alston-O'Connor"
                 }
@@ -468,8 +468,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1030-1320",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "B021",
                     "instructor": "Geoffrey Carr"
                 }
@@ -493,8 +493,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1720",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "B021",
                     "instructor": "Geoffrey Carr"
                 }
@@ -518,8 +518,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Anne Kristiansen"
                 }
@@ -543,8 +543,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1030-1320",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "B021",
                     "instructor": "Victory Kong"
                 }
@@ -627,8 +627,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1230-1420",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A210",
                     "instructor": "Avram Agov"
                 },
@@ -636,8 +636,8 @@
                     "type": "Field School",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-07",
-                    "end": "2023-5-30",
+                    "start": "2023-05-07",
+                    "end": "2023-05-30",
                     "room": "OFFC",
                     "instructor": "Avram Agov"
                 }
@@ -695,8 +695,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1230-1420",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A210",
                     "instructor": "Avram Agov"
                 },
@@ -704,8 +704,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-07",
-                    "end": "2023-5-30",
+                    "start": "2023-05-07",
+                    "end": "2023-05-30",
                     "room": "OFFC",
                     "instructor": "Avram Agov"
                 }
@@ -3115,8 +3115,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "0930-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "B251",
                     "instructor": "Sze-Ching Yip"
                 }
@@ -5587,8 +5587,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A322",
                     "instructor": "Tianming Li"
                 }
@@ -5612,8 +5612,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1430-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A322",
                     "instructor": "Tianming Li"
                 },
@@ -5621,8 +5621,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Tianming Li"
                 }
@@ -5646,8 +5646,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A321",
                     "instructor": "Tianming Li"
                 },
@@ -5655,8 +5655,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Tianming Li"
                 }
@@ -5680,8 +5680,8 @@
                     "type": "WWW",
                     "days": "M-W----",
                     "time": "1830-2020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": " ",
                     "instructor": " "
                 },
@@ -5689,8 +5689,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": " ",
                     "instructor": " "
                 }
@@ -8837,8 +8837,8 @@
                     "type": "WWW",
                     "days": "MTWR---",
                     "time": "0930-1120",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": ". TBA"
                 }
@@ -9437,8 +9437,8 @@
                     "type": "WWW",
                     "days": "--W----",
                     "time": "1630-1820",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Warren Giovannetti"
                 },
@@ -9446,8 +9446,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Warren Giovannetti"
                 }
@@ -9555,8 +9555,8 @@
                     "type": "WWW",
                     "days": "---R---",
                     "time": "1830-2020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Warren Giovannetti"
                 },
@@ -9564,8 +9564,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Warren Giovannetti"
                 }
@@ -9657,8 +9657,8 @@
                     "type": "WWW",
                     "days": "-----S-",
                     "time": "0900-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Kari MacDougall"
                 }
@@ -9682,8 +9682,8 @@
                     "type": "WWW",
                     "days": "M-W----",
                     "time": "1600-1950",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Kari MacDougall"
                 }
@@ -11007,8 +11007,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "0930-1320",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A058",
                     "instructor": "Daniel Nowak"
                 }
@@ -11032,8 +11032,8 @@
                     "type": "Lecture",
                     "days": "--W----",
                     "time": "0930-1320",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "A247",
                     "instructor": "Jonas Quastel"
                 }
@@ -11057,8 +11057,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "0930-1320",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A256",
                     "instructor": "Jason Simpson"
                 }
@@ -11082,8 +11082,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1030-1420",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "A256",
                     "instructor": "Jennifer Copping"
                 }
@@ -11479,8 +11479,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "B251",
                     "instructor": "Sze-Ching Yip"
                 }
@@ -12584,8 +12584,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "1330-1720",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A006",
                     "instructor": "Gloria Han"
                 }
@@ -12609,8 +12609,8 @@
                     "type": "WWW",
                     "days": "--W-F--",
                     "time": "0900-1250",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Elizabeth Milton"
                 }
@@ -12634,8 +12634,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1400-1750",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A003",
                     "instructor": "Elizabeth Milton"
                 }
@@ -12884,8 +12884,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1030-1250",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A346",
                     "instructor": "Katrina Erdos"
                 },
@@ -12893,8 +12893,8 @@
                     "type": "Field School",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-12",
-                    "end": "2023-6-04",
+                    "start": "2023-05-12",
+                    "end": "2023-06-04",
                     "room": "OFFC",
                     "instructor": "Katrina Erdos"
                 }
@@ -13274,8 +13274,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1030-1250",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A346",
                     "instructor": "Katrina Erdos"
                 },
@@ -13283,8 +13283,8 @@
                     "type": "Field School",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-12",
-                    "end": "2023-6-04",
+                    "start": "2023-05-12",
+                    "end": "2023-06-04",
                     "room": "OFFC",
                     "instructor": "Katrina Erdos"
                 }
@@ -13676,8 +13676,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Craig Keating"
                 }
@@ -13726,8 +13726,8 @@
                     "type": "Lecture",
                     "days": "M-W----",
                     "time": "0930-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A136A",
                     "instructor": "Craig Keating"
                 }
@@ -13751,8 +13751,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1400-1620",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A346",
                     "instructor": "Jennifer Knapp"
                 },
@@ -13760,8 +13760,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-12",
-                    "end": "2023-6-04",
+                    "start": "2023-05-12",
+                    "end": "2023-06-04",
                     "room": "OFFC",
                     "instructor": "Jennifer Knapp"
                 }
@@ -13785,8 +13785,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1000-1150",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A210",
                     "instructor": "Kenneth Wong"
                 },
@@ -13794,8 +13794,8 @@
                     "type": "Field School",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-07",
-                    "end": "2023-5-30",
+                    "start": "2023-05-07",
+                    "end": "2023-05-30",
                     "room": "OFFC",
                     "instructor": "Kenneth Wong"
                 }
@@ -13853,8 +13853,8 @@
                     "type": "Lecture",
                     "days": "MTWRF--",
                     "time": "1000-1150",
-                    "start": "2023-5-01",
-                    "end": "2023-5-05",
+                    "start": "2023-05-01",
+                    "end": "2023-05-05",
                     "room": "A210",
                     "instructor": "Kenneth Wong"
                 },
@@ -13862,8 +13862,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-07",
-                    "end": "2023-5-30",
+                    "start": "2023-05-07",
+                    "end": "2023-05-30",
                     "room": "OFFC",
                     "instructor": "Kenneth Wong"
                 }
@@ -14030,8 +14030,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A322",
                     "instructor": "Shiho Minami"
                 }
@@ -15019,8 +15019,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1030-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "B029",
                     "instructor": "Susan Todd"
                 }
@@ -15044,8 +15044,8 @@
                     "type": "Lecture",
                     "days": "-TWRF--",
                     "time": "1030-1220",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A215",
                     "instructor": "Joel Bland"
                 }
@@ -15069,8 +15069,8 @@
                     "type": "Lecture",
                     "days": "-TWRF--",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A215",
                     "instructor": "Joel Bland"
                 }
@@ -15609,8 +15609,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Ana Diab"
                 }
@@ -17811,8 +17811,8 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "C508",
                     "instructor": "Mary Peters"
                 },
@@ -17820,8 +17820,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Mary Peters"
                 }
@@ -17845,8 +17845,8 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1020",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "C508",
                     "instructor": "Baljit Khun-Khun"
                 },
@@ -17854,8 +17854,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1830-2020",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "WWW",
                     "instructor": "Baljit Khun-Khun"
                 }
@@ -17879,8 +17879,8 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1120",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "C510",
                     "instructor": "Sarah Desbiens"
                 },
@@ -17888,8 +17888,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1930-2020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Sarah Desbiens"
                 }
@@ -17913,8 +17913,8 @@
                     "type": "Lecture",
                     "days": "---RF--",
                     "time": "0830-1120",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "C510",
                     "instructor": "Karen McColgan"
                 },
@@ -17922,8 +17922,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "1930-2020",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "WWW",
                     "instructor": "Karen McColgan"
                 }
@@ -17947,8 +17947,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "OFFC",
                     "instructor": "Karen McColgan, . TBA, Amandeep Turre, Hana Pecinova, Sandeep Kainth"
                 }
@@ -17972,8 +17972,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "OFFC",
                     "instructor": "Karen McColgan, . TBA, Amandeep Turre, Hana Pecinova, Sandeep Kainth"
                 }
@@ -17997,8 +17997,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "OFFC",
                     "instructor": "Mary Peters, . TBA, Baljit Khun-Khun, Cristina Follador, Erin Kouwenhoven, Helen Jackson"
                 }
@@ -18022,8 +18022,8 @@
                     "type": "Practicum",
                     "days": "-TW----",
                     "time": "0730-1520",
-                    "start": "2023-6-26",
-                    "end": "2023-8-04",
+                    "start": "2023-06-26",
+                    "end": "2023-08-04",
                     "room": "OFFC",
                     "instructor": "Mary Peters, . TBA, Baljit Khun-Khun, Cristina Follador, Erin Kouwenhoven, Helen Jackson"
                 }
@@ -19342,8 +19342,8 @@
                     "type": "Lecture",
                     "days": "M------",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-8-05",
+                    "start": "2023-05-08",
+                    "end": "2023-08-05",
                     "room": "T342",
                     "instructor": "Mayra Tovar"
                 },
@@ -19351,8 +19351,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-8-05",
+                    "start": "2023-05-08",
+                    "end": "2023-08-05",
                     "room": "T313",
                     "instructor": "Mayra Tovar"
                 },
@@ -19360,8 +19360,8 @@
                     "type": "Lab",
                     "days": "---R---",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-8-05",
+                    "start": "2023-05-08",
+                    "end": "2023-08-05",
                     "room": "T350",
                     "instructor": "Mayra Tovar"
                 }
@@ -19639,8 +19639,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Greg Blue"
                 }
@@ -20077,8 +20077,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1430-1620",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A136B",
                     "instructor": "Julianne Beadle"
                 },
@@ -20086,8 +20086,8 @@
                     "type": "Lecture",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Julianne Beadle"
                 }
@@ -20320,8 +20320,8 @@
                     "type": "WWW",
                     "days": "-------",
                     "time": "-",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "WWW",
                     "instructor": "Josue Menjivar"
                 }
@@ -20690,8 +20690,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "0830-1020",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A322",
                     "instructor": "Laura Vass"
                 }
@@ -20715,8 +20715,8 @@
                     "type": "Lecture",
                     "days": "MTWR---",
                     "time": "1230-1420",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "A321",
                     "instructor": "Laura Vass"
                 }
@@ -22607,8 +22607,8 @@
                     "type": "Lecture",
                     "days": "-T-R---",
                     "time": "1230-1520",
-                    "start": "2023-5-08",
-                    "end": "2023-6-21",
+                    "start": "2023-05-08",
+                    "end": "2023-06-21",
                     "room": "C410",
                     "instructor": "Heather Workman"
                 }
@@ -22632,8 +22632,8 @@
                     "type": "Lecture",
                     "days": "-T-----",
                     "time": "1530-1820",
-                    "start": "2023-5-23",
-                    "end": "2023-6-29",
+                    "start": "2023-05-23",
+                    "end": "2023-06-29",
                     "room": "C410",
                     "instructor": "Sean Padley"
                 }
@@ -22932,8 +22932,8 @@
                     "type": "Lecture",
                     "days": "---R---",
                     "time": "1030-1220",
-                    "start": "2023-5-18",
-                    "end": "2023-8-04",
+                    "start": "2023-05-18",
+                    "end": "2023-08-04",
                     "room": "C410",
                     "instructor": "Manuela Klick"
                 }
@@ -23032,8 +23032,8 @@
                     "type": "Lecture",
                     "days": "----F--",
                     "time": "1030-1220",
-                    "start": "2023-5-19",
-                    "end": "2023-8-04",
+                    "start": "2023-05-19",
+                    "end": "2023-08-04",
                     "room": "B030",
                     "instructor": "Manuela Klick"
                 }

@@ -11,7 +11,7 @@ class Calendar {
         this.datetime_retrieved = null
         this.year = null
         this.semester = null
-        this.courses_first_day = "2023-1-01"
+        this.courses_first_day = "2023-01-01"
         this.courses_last_day = null
     }
 
