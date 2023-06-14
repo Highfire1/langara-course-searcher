@@ -8,44 +8,48 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.log(document.getElementById("termSelector").value )
     await calendarClass.fetchData(document.getElementById("termSelector").value )
 
-    
-    var FCalendar = new FullCalendar.Calendar(calendarElement, {
-      schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
-      rerenderDelay: 10,
+    try {
+      var FCalendar = new FullCalendar.Calendar(calendarElement, {
+        schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+        rerenderDelay: 10,
 
-      // resource stuff
-      resourceGroupField: 'groupId',
-      resourceGroupLabelContent: function(arg) {return timelineLabelApplier(arg.groupValue)},
-      resources: function(fetchInfo, successCallback, failureCallback) {successCallback(calendarClass.generateResources())},
-      resourceAreaWidth: "120px",
-      // show class info when clicked
-      eventClick: function(eventClickInfo) {console.log(calendarClass.showCourseInfo(eventClickInfo.event.id))},
+        // resource stuff
+        resourceGroupField: 'groupId',
+        resourceGroupLabelContent: function(arg) {return timelineLabelApplier(arg.groupValue)},
+        resources: function(fetchInfo, successCallback, failureCallback) {successCallback(calendarClass.generateResources())},
+        resourceAreaWidth: "120px",
+        // show class info when clicked
+        eventClick: function(eventClickInfo) {console.log(calendarClass.showCourseInfo(eventClickInfo.event.id))},
 
-      // calendar stuff
-      timeZone: 'America/Vancouver',
-      initialView: 'timeGridWeek', // 'resourceTimelineDay'
-      slotMinTime:"07:00", // classes start 7:30 and end 9:30
-      slotMaxTime:"22:00",
-      displayEventTime: false, // honestly not sure what this does
-      headerToolbar: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'resourceTimelineDay,resourceTimelineWeek dayGridMonth,timeGridWeek,timeGridDay'
-      },
-      weekends: document.getElementById("weekendCheckbox").checked,
-      initialDate: new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000), // start on the second week of courses
-      slotEventOverlap:false,
-      
-      // fires when event is created, adds a second line of text to event because you can't by default ._.
-      eventContent: function(info) {
-        let p = document.createElement('p')
-        p.innerHTML = info.event.extendedProps["description"]
-        return { domNodes: [p] }
-      },
+        // calendar stuff
+        timeZone: 'America/Vancouver',
+        initialView: 'timeGridWeek', // 'resourceTimelineDay'
+        slotMinTime:"07:00", // classes start 7:30 and end 9:30
+        slotMaxTime:"22:00",
+        displayEventTime: false, // honestly not sure what this does
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'resourceTimelineDay,resourceTimelineWeek dayGridMonth,timeGridWeek,timeGridDay'
+        },
+        weekends: document.getElementById("weekendCheckbox").checked,
+        initialDate: new Date(new Date(calendarClass.courses_first_day).getTime() + 604800000), // start on the second week of courses
+        slotEventOverlap:false,
+        
+        // fires when event is created, adds a second line of text to event because you can't by default ._.
+        eventContent: function(info) {
+          let p = document.createElement('p')
+          p.innerHTML = info.event.extendedProps["description"]
+          return { domNodes: [p] }
+        },
 
-    })
+      })
 
-    FCalendar.render();
+      FCalendar.render();
+    } catch (error) {
+      alert(error)
+
+    }
 
     calendarClass.FCalendar = FCalendar
     calendarClass.courselistUpdate()
