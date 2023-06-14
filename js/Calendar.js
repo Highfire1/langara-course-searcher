@@ -32,6 +32,8 @@ class Calendar {
         let data = await fetch('json/' + yearSemester + '.json')
         data = await data.json()
 
+        document.getElementById("searchResults").textContent = "Courses loaded..."
+
         this.datetime_retrieved = data["datetime_retrieved"]
         this.year = data["year"]
         this.semester = data["semester"]
@@ -42,6 +44,8 @@ class Calendar {
         for (const c of data["courses"]) {
             this.courses.push(new Course(c, this, this.year, this.semester))
         }
+
+        document.getElementById("searchResults").textContent = "Courses parsed..."
 
         // generate course list 
         var courselist = document.getElementById("courselist")
