@@ -6,13 +6,13 @@ body {
 	margin: 0;
 	height: 100%;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
+    background-color: rgb(108, 187, 108);
 }
 
 
 #outer-container {
 	display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: max(200px, 30%) 1fr;
     grid-template-rows: 1fr;
 
 
