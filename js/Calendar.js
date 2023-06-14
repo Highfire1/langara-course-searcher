@@ -26,6 +26,9 @@ class Calendar {
         // Load new data
         if (yearSemester == "ALL SEMESTERS") {
             await this.FetchAllData()
+            let data = await fetch("allInfo.json")
+            this.all_courses = await data.json()
+            console.log(this.all_courses)
             return
         }
 
