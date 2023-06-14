@@ -174,6 +174,8 @@ class Course {
 
         html += `<h2>${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title} </h2>`
         html += `<p>${object.description}</p>`
+
+        html += "<h2>Section Information</h2>"
         
         html += `<div class="sched">`
         html += `<p>Type</p><p>Day(s)</p><p>Time</p><p>Non Standard Start</p><p>Non Standard End</p><p>Room</p><p>Instructor(s)</p>`
@@ -186,25 +188,25 @@ class Course {
                 end = ""
             html += `<p>${sch.type}</p><p>${sch.days}</p><p>${sch.time}</p><p>${start}</p><p>${end}</p><p>${sch.room}</p><p>${sch.instructor}</p>`
         }
-        html += "</div>"
-
-        html += "<h2>Section Information</h2>"
-        html += `<div class="grid">`
-        html += `<p>RP</p><p>${this.RP}</p>`
-        html += `<p>Seats Available</p><p>${this.seats}</p>`
-        html += `<p># On Waitlist</p><p>${this.waitlist}</p>`
-        html += `<p>CRN</p><p>${this.crn}</p>`
-        html += `<p>Subject</p><p>${this.subject}</p>`
-        html += `<p>Course</p><p>${this.course_code}</p>`
-        html += `<p>Section</p><p>${this.section}</p>`
-        html += `<p>Credits</p><p>${this.credits}</p>`
-        html += `<p>Title</p><p>${this.title}</p>`
-        html += `<p>Additional Fees</p><p>${this.add_fees}</p>`
-        html += `<p>Repeat Limit</p><p>${this.rpt_limit}</p>`
-        html += `<p>Notes</p><p>${this.notes}</p>`
         html += "</div><br>"
 
+        html += `<div class="grid">`
+            html += `<p>RP</p><p>${this.RP}</p>`
+            html += `<p>Seats Available</p><p>${this.seats}</p>`
+            html += `<p># On Waitlist</p><p>${this.waitlist}</p>`
+            html += `<p>CRN</p><p>${this.crn}</p>`
+            html += `<p>Subject</p><p>${this.subject}</p>`
+            html += `<p>Course</p><p>${this.course_code}</p>`
+            html += `<p>Section</p><p>${this.section}</p>`
+            html += `<p>Credits</p><p>${this.credits}</p>`
+            html += `<p>Title</p><p>${this.title}</p>`
+            html += `<p>Additional Fees</p><p>${this.add_fees}</p>`
+            html += `<p>Repeat Limit</p><p>${this.rpt_limit}</p>`
+            html += `<p>Notes</p><p>${this.notes}</p>`
+        html += "</div>"
+
         console.log(object)
+        html += "<h2>Course Information</h2>"
         
 
         if (object.attributes === null)
@@ -284,8 +286,8 @@ class Course {
                 <td>${sch.days}</td> 
                 <td>${sch.time}</td> 
                 <td>${sch.room}</td> 
-                <td>${sch.instructor}</td>  
-                <td>${sch.type}</td> `
+                <td>${sch.type}</td>  
+                <td>${sch.instructor}</td> `
                 )
             }
 
