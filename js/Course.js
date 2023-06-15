@@ -172,7 +172,7 @@ class Course {
 
         let object = this.Calendar.getCourseFromAllCourses(this.subject, this.course_code)
 
-        html += `<h2>${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title} </h2>`
+        html += `<h2><a href="https://langara.ca/programs-and-courses/courses/${this.subject}/${this.course_code}.html">${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title}</a></h2>`
         html += `<p>${object.description}</p>`
 
         html += "<h2>Section Information</h2>"
