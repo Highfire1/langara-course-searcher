@@ -162,5 +162,5 @@ header > * {
 }
 
 .calendartxt {
-    font-size: min(1.5vh, 1.2vw)
+    font-size: max(min(1.5vh, 1.2vw), 10px)
 }
