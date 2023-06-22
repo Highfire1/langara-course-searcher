@@ -180,6 +180,13 @@ document.addEventListener('DOMContentLoaded', async function() {
 
       alert(`Saved ${calendarClass.courses_oncalendar.length} course${s} to clipboard.`)
     })
+    
+    // are you sure you want to leave this page?
+    addEventListener("beforeunload", (event) => {
+      if (calendarClass.courses_oncalendar.length > 0) {
+        event.preventDefault();
+      }
+    });
 
 
 
