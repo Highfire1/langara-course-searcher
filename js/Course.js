@@ -277,6 +277,9 @@ class Course {
         <table class="offeredTable mono"> 
         <thead><th>Semester</th> <th>Seats</th> <th>Waitlist</th> <th>Days</th> <th>Time</th> <th>Room</th> <th>Type</th> <th>Instructor</th></thead>
         `
+        if (object.offered === null) {
+            object.offered = []
+        }
 
         for (const c of object.offered) {
             html += `<tbody>`
