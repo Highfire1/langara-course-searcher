@@ -49,7 +49,7 @@ class Calendar {
         }
 
 
-        console.log(data)
+        //console.log(data)
         data = await data.json()
 
         document.getElementById("searchResults").textContent = "Courses loaded..."
@@ -75,6 +75,10 @@ class Calendar {
           courselist.appendChild(c.courseListHTML)
         }
 
+    }
+
+    async fetchMaxData() {
+        
         if (this.all_courses == undefined) {
             let data2
 
@@ -89,7 +93,7 @@ class Calendar {
             }
     
             this.all_courses = await data2.json()
-            console.log(this.all_courses)
+            //console.log(this.all_courses)
         }
         
     }

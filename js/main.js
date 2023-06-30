@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     }
 
+    await calendarClass.fetchMaxData()
+
     calendarClass.FCalendar = FCalendar
     calendarClass.courselistUpdate()
 
@@ -203,7 +205,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     //this.getElementById("termSelector").addEventListener('change', function() {generateCourseList()})  
 
     //toggleDescriptionCheckbox()
-});
+  });
+
 
 function timelineLabelApplier(name) {
   let names = {
