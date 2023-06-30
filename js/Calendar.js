@@ -16,6 +16,9 @@ class Calendar {
     }
 
     async fetchData(yearSemester) {
+
+        let year = yearSemester.substring(0, 4)
+        let semester = yearSemester.substring(4, 6)
         
         // clear current data
         this.ghostCourse = null
@@ -32,7 +35,21 @@ class Calendar {
             return
         }
 
-        let data = await fetch('json/' + yearSemester + '.json')
+
+        let data
+
+        try {
+            data = await fetch(`https://api.langaracs.tech/v1/courselist/${year}/${semester}`)
+        } catch {}
+        
+
+        if (data == undefined || !data.ok) {
+            console.log(`Could not fetch ${year}${semester} from api, using backup files.`)
+            data = await fetch('json/' + yearSemester + '.json')
+        }
+
+
+        console.log(data)
         data = await data.json()
 
         document.getElementById("searchResults").textContent = "Courses loaded..."
@@ -58,9 +75,23 @@ class Calendar {
           courselist.appendChild(c.courseListHTML)
         }
 
-        data = await fetch("allInfo.json")
-        this.all_courses = await data.json()
-        console.log(this.all_courses)
+        if (this.all_courses == undefined) {
+            let data2
+
+            try {
+                data2 = await fetch(`https://api.langaracs.tech/v1/courses/all`)
+            } catch {}
+            
+    
+            if (data2 == undefined || !data2.ok) {
+                console.log(`Could not fetch ALL COURSES from api, using backup file.`)
+                data2 = await fetch('allInfo.json')
+            }
+    
+            this.all_courses = await data2.json()
+            console.log(this.all_courses)
+        }
+        
     }
 
     async FetchAllData() {

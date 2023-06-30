@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     var calendarElement = document.getElementById('calendar');
     calendarClass = new Calendar()
     
-    console.log(document.getElementById("termSelector").value )
+    //console.log(document.getElementById("termSelector").value )
     await calendarClass.fetchData(document.getElementById("termSelector").value )
 
     try {
@@ -183,6 +183,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     
     // are you sure you want to leave this page?
     addEventListener("beforeunload", (event) => {
+      // dev purposes
+      if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+        return
+      }
+      
       if (calendarClass.courses_oncalendar.length > 0) {
         event.preventDefault();
       }
