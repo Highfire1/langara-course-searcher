@@ -51,8 +51,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     }
 
-    await calendarClass.fetchMaxData()
-
+    
     calendarClass.FCalendar = FCalendar
     calendarClass.courselistUpdate()
 
@@ -174,6 +173,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         text += "\n\n" + c.toString()
       }
 
+      
+
 
 
       console.log(text)
@@ -195,6 +196,8 @@ document.addEventListener('DOMContentLoaded', async function() {
       }
     });
 
+    // finally get the super data
+    await calendarClass.fetchMaxData()
 
 
     
