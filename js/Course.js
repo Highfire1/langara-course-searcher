@@ -94,7 +94,7 @@ class Course {
         } else if (this.seats == 0 && this.waitlist == "Full") {
             html += `<p>Seats and waitlist are full.</p>`
             color = "red"
-        } else if (this.seats != 0 && this.waitlist == " ") {
+        } else if (this.seats != 0 && (this.waitlist == " " || this.waitlist == "")) {
             html += `<p>${this.seats} seats available.</p>`
             color = "green"
         } else if (this.seats != 0 && this.waitlist != "Full") {
@@ -171,6 +171,8 @@ class Course {
 
 
         let object = this.Calendar.getCourseFromAllCourses(this.subject, this.course_code)
+
+        
 
         html += `<h2><a href="https://langara.ca/programs-and-courses/courses/${this.subject}/${this.course_code}.html">${this.subject} ${this.course_code} ${this.year} ${this.section} ${this.crn}: ${this.title}</a></h2>`
         html += `<p>${object.description}</p>`
