@@ -161,6 +161,20 @@ header > * {
     display: none;
 }
 
+
+.fc .fc-timegrid-col-bg{
+    z-index: 0 !important;
+}
+
+
+.fc-timegrid-event-harness:hover{
+    z-index: 9999999 !important;
+    width: 150px !important;
+    overflow: visible !important;
+    color: red;
+}
+
+
 .calendartxt {
     font-size: max(min(1.5vh, 1.2vw), 10px)
 }
