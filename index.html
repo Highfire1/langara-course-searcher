@@ -23,146 +23,30 @@
     <script src='js/Calendar.js'> </script>
     <script src='js/Course.js'> </script>
     <script src='js/main.js'> </script>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <div id="outer-container">
-        <div id="sidebar">
-            <div id="sidebarcontainer">
-                <header>
-                    <p>❤️</p>
-                    <a href="https://github.com/Highfire1/langara-course-searcher">Github</a>
-                    <a class="hidden">About</a>
-                    <a class="hidden">FAQ</a>
-                    <p>❤️</p>
-                </header>
-
-                <input type="text" id="courseSearchBar" placeholder="Search for course...">
-                
-                <div id="courseOptions">
-                    
-                    <p id="searchResults">Loading courses...</p>
-
-                    <input type="checkbox" id="weekendCheckbox">
-                    <label for="weekendCheckbox">Show weekends.</label>
-                    
-
-                    <br>
-                    <label>Select term: </label> 
-                    <select id="termSelector">
-                        <option value="202330">2023 Fall</option>
-                        <option value="202320">2023 Summer</option>
-                        <option value="202310">2023 Spring</option>
-                        <option value="202230">2022 Fall</option>
-                        <option value="202220">2022 Summer</option>
-                        <option value="202210">2022 Spring</option>
-                        <option value="202130">2021 Fall</option>
-                        <option value="202120">2021 Summer</option>
-                        <option value="202110">2021 Spring</option>
-                        <option value="202030">2020 Fall</option>
-                        <option value="202020">2020 Summer</option>
-                        <option value="202010">2020 Spring</option>
-                        <option value="201930">2019 Fall</option>
-                        <option value="201920">2019 Summer</option>
-                        <option value="201910">2019 Spring</option>
-                        <option value="201830">2018 Fall</option>
-                        <option value="201820">2018 Summer</option>
-                        <option value="201810">2018 Spring</option>
-                        <option value="201730">2017 Fall</option>
-                        <option value="201720">2017 Summer</option>
-                        <option value="201710">2017 Spring</option>
-                        <option value="201630">2016 Fall</option>
-                        <option value="201620">2016 Summer</option>
-                        <option value="201610">2016 Spring</option>
-                        <option value="201530">2015 Fall</option>
-                        <option value="201520">2015 Summer</option>
-                        <option value="201510">2015 Spring</option>
-                        <option value="201430">2014 Fall</option>
-                        <option value="201420">2014 Summer</option>
-                        <option value="201410">2014 Spring</option>
-                        <option value="201330">2013 Fall</option>
-                        <option value="201320">2013 Summer</option>
-                        <option value="201310">2013 Spring</option>
-                        <option value="201230">2012 Fall</option>
-                        <option value="201220">2012 Summer</option>
-                        <option value="201210">2012 Spring</option>
-                        <option value="201130">2011 Fall</option>
-                        <option value="201120">2011 Summer</option>
-                        <option value="201110">2011 Spring</option>
-                        <option value="201030">2010 Fall</option>
-                        <option value="201020">2010 Summer</option>
-                        <option value="201010">2010 Spring</option>
-                        <option value="200930">2009 Fall</option>
-                        <option value="200920">2009 Summer</option>
-                        <option value="200910">2009 Spring</option>
-                        <option value="200830">2008 Fall</option>
-                        <option value="200820">2008 Summer</option>
-                        <option value="200810">2008 Spring</option>
-                        <option value="200730">2007 Fall</option>
-                        <option value="200720">2007 Summer</option>
-                        <option value="200710">2007 Spring</option>
-                        <option value="200630">2006 Fall</option>
-                        <option value="200620">2006 Summer</option>
-                        <option value="200610">2006 Spring</option>
-                        <option value="200530">2005 Fall</option>
-                        <option value="200520">2005 Summer</option>
-                        <option value="200510">2005 Spring</option>
-                        <option value="200430">2004 Fall</option>
-                        <option value="200420">2004 Summer</option>
-                        <option value="200410">2004 Spring</option>
-                        <option value="200330">2003 Fall</option>
-                        <option value="200320">2003 Summer</option>
-                        <option value="200310">2003 Spring</option>
-                        <option value="200230">2002 Fall</option>
-                        <option value="200220">2002 Summer</option>
-                        <option value="200210">2002 Spring</option>
-                        <option value="200130">2001 Fall</option>
-                        <option value="200120">2001 Summer</option>
-                        <option value="200110">2001 Spring</option>
-                        <option value="200030">2000 Fall</option>
-                        <option value="200020">2000 Summer</option>
-                        <option value="200010">2000 Spring</option>
-                        <option value="ALL SEMESTERS">All SEMESTERS</option>
-                    </select>
-
-                    
-                    
-                    <br>
-                    <input type="checkbox" id="conflictCheckbox">
-                    <label for="conflictCheckbox">Hide courses that conflict with selected courses.</label>
-                    <!-- hidden until i code them
-                    <br>
-                    <input type="checkbox" id="restrictedCheckbox">
-                    <label for="restrictedCheckbox">Filter out restricted courses.</label>
-                    -->
-
-                    <br>
-                    <input id="showAllButton" type="button" value="Show all courses in list.">
-                    <br>
-                    <input id="copyButton" type="button" value="Copy selected courses to clipboard.">  
-                    
-                    <br>
-                    <input type="checkbox" id="showColors">
-                    <label for="showColors">Highlight courses by seats available.</label>
-                    <!-- hidden until i code
-                    <br>
-                    <input type="checkbox" id="cancelledCheckbox">
-                    <label for="cancelledCheckbox">Hide cancelled courses.</label>
-                    -->
-                </div>
-            
-
-                <div id="courselist">
-                    <div>
-                        <h3 >Loading Courses...</h3>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-        <div id="content">
-            <div id='calendar'></div>
-        </div>
+    <div>
+        <h1>This page has moved!</h1>
+        <p>Please visit <a href="https://highfire1.github.io/LangaraCourseBrowser/">https://highfire1.github.io/LangaraCourseBrowser/</a></p>
+        <p>Or click <a href="/old">here</a> for the old site.</p>
     </div>
 </body>
 </html>
